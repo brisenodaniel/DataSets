@@ -1,0 +1,1769 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0001_ds177_20105_2010_urb_area'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2006-2010
+Geographic level: Urban Area
+Dataset:          2010 American Community Survey: 5-Year Data [2006-2010, Tracts & Larger Areas]
+   NHGIS code:    2006_2010_ACS5b
+   NHGIS ID:      ds177
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Sex of Workers by Means of Transportation to Work
+   Universe:    Workers 16 years and over
+   Source code: B08006
+   NHGIS code:  JY0
+ 
+2. Means of Transportation to Work by Age
+   Universe:    Workers 16 years and over
+   Source code: B08101
+   NHGIS code:  JY6
+ 
+3. Median Age by Means of Transportation to Work
+   Universe:    Workers 16 years and over
+   Source code: B08103
+   NHGIS code:  JY7
+ 
+4. Means of Transportation to Work by Citizenship Status
+   Universe:    Workers 16 years and over
+   Source code: B08111
+   NHGIS code:  JZH
+ 
+5. Means of Transportation to Work by Language Spoken at Home and Ability to Speak English
+   Universe:    Workers 16 years and over
+   Source code: B08113
+   NHGIS code:  JZI
+ 
+6. Means of Transportation to Work by Workers' Earnings in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+   Universe:    Workers 16 years and over with earnings
+   Source code: B08119
+   NHGIS code:  JZJ
+ 
+7. Median Earnings in the Past 12 Months (in 2010 Inflation-Adjusted Dollars) by Means of Transportation to Work
+   Universe:    Workers 16 years and over with earnings
+   Source code: B08121
+   NHGIS code:  JZK
+ 
+8. Means of Transportation to Work by Poverty Status in the Past 12 Months
+   Universe:    Workers 16 years and over for whom poverty status is determined
+   Source code: B08122
+   NHGIS code:  JZL
+ 
+9. Means of Transportation to Work by Occupation
+   Universe:    Workers 16 years and over
+   Source code: B08124
+   NHGIS code:  JZM
+ 
+10. Means of Transportation to Work by Industry
+    Universe:    Workers 16 years and over
+    Source code: B08126
+    NHGIS code:  JZN
+ 
+11. Means of Transportation to Work by Class of Worker
+    Universe:    Workers 16 years and over
+    Source code: B08128
+    NHGIS code:  JZO
+ 
+12. Means of Transportation to Work by Place of Work--State and County Level
+    Universe:    Workers 16 years and over
+    Source code: B08130
+    NHGIS code:  JZP
+ 
+13. Means of Transportation to Work by Time Leaving Home to Go to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: B08132
+    NHGIS code:  JZR
+ 
+14. Means of Transportation to Work by Tenure
+    Universe:    Workers 16 years and over in households
+    Source code: B08137
+    NHGIS code:  JZT
+ 
+15. Means of Transportation to Work by Vehicles Available
+    Universe:    Workers 16 years and over in households
+    Source code: B08141
+    NHGIS code:  JZU
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATEA:      State Code
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Reservation with Trust Lands; trust lands only Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UA:          Urban Area Name
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (111th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PUMA5A:      Public Use Microdata Sample Area (PUMA) Code
+        BTTRA:       Tribal Census Tract Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Sex of Workers by Means of Transportation to Work
+    Universe:    Workers 16 years and over
+    Source code: B08006
+    NHGIS code:  JY0
+        JY0E001:     Total
+        JY0E002:     Car, truck, or van
+        JY0E003:     Car, truck, or van: Drove alone
+        JY0E004:     Car, truck, or van: Carpooled
+        JY0E005:     Car, truck, or van: Carpooled: In 2-person carpool
+        JY0E006:     Car, truck, or van: Carpooled: In 3-person carpool
+        JY0E007:     Car, truck, or van: Carpooled: In 4-or-more-person carpool
+        JY0E008:     Public transportation (excluding taxicab)
+        JY0E009:     Public transportation (excluding taxicab): Bus or trolley bus
+        JY0E010:     Public transportation (excluding taxicab): Streetcar or trolley car (carro publico in Puerto Rico)
+        JY0E011:     Public transportation (excluding taxicab): Subway or elevated
+        JY0E012:     Public transportation (excluding taxicab): Railroad
+        JY0E013:     Public transportation (excluding taxicab): Ferryboat
+        JY0E014:     Bicycle
+        JY0E015:     Walked
+        JY0E016:     Taxicab, motorcycle, or other means
+        JY0E017:     Worked at home
+        JY0E018:     Male
+        JY0E019:     Male: Car, truck, or van
+        JY0E020:     Male: Car, truck, or van: Drove alone
+        JY0E021:     Male: Car, truck, or van: Carpooled
+        JY0E022:     Male: Car, truck, or van: Carpooled: In 2-person carpool
+        JY0E023:     Male: Car, truck, or van: Carpooled: In 3-person carpool
+        JY0E024:     Male: Car, truck, or van: Carpooled: In 4-or-more-person carpool
+        JY0E025:     Male: Public transportation (excluding taxicab)
+        JY0E026:     Male: Public transportation (excluding taxicab): Bus or trolley bus
+        JY0E027:     Male: Public transportation (excluding taxicab): Streetcar or trolley car (carro publico in Puerto Rico)
+        JY0E028:     Male: Public transportation (excluding taxicab): Subway or elevated
+        JY0E029:     Male: Public transportation (excluding taxicab): Railroad
+        JY0E030:     Male: Public transportation (excluding taxicab): Ferryboat
+        JY0E031:     Male: Bicycle
+        JY0E032:     Male: Walked
+        JY0E033:     Male: Taxicab, motorcycle, or other means
+        JY0E034:     Male: Worked at home
+        JY0E035:     Female
+        JY0E036:     Female: Car, truck, or van
+        JY0E037:     Female: Car, truck, or van: Drove alone
+        JY0E038:     Female: Car, truck, or van: Carpooled
+        JY0E039:     Female: Car, truck, or van: Carpooled: In 2-person carpool
+        JY0E040:     Female: Car, truck, or van: Carpooled: In 3-person carpool
+        JY0E041:     Female: Car, truck, or van: Carpooled: In 4-or-more-person carpool
+        JY0E042:     Female: Public transportation (excluding taxicab)
+        JY0E043:     Female: Public transportation (excluding taxicab): Bus or trolley bus
+        JY0E044:     Female: Public transportation (excluding taxicab): Streetcar or trolley car (carro publico in Puerto Rico)
+        JY0E045:     Female: Public transportation (excluding taxicab): Subway or elevated
+        JY0E046:     Female: Public transportation (excluding taxicab): Railroad
+        JY0E047:     Female: Public transportation (excluding taxicab): Ferryboat
+        JY0E048:     Female: Bicycle
+        JY0E049:     Female: Walked
+        JY0E050:     Female: Taxicab, motorcycle, or other means
+        JY0E051:     Female: Worked at home
+ 
+    Table 2:     Means of Transportation to Work by Age
+    Universe:    Workers 16 years and over
+    Source code: B08101
+    NHGIS code:  JY6
+        JY6E001:     Total
+        JY6E002:     16 to 19 years
+        JY6E003:     20 to 24 years
+        JY6E004:     25 to 44 years
+        JY6E005:     45 to 54 years
+        JY6E006:     55 to 59 years
+        JY6E007:     60 to 64 years
+        JY6E008:     65 years and over
+        JY6E009:     Car, truck, or van - drove alone
+        JY6E010:     Car, truck, or van - drove alone: 16 to 19 years
+        JY6E011:     Car, truck, or van - drove alone: 20 to 24 years
+        JY6E012:     Car, truck, or van - drove alone: 25 to 44 years
+        JY6E013:     Car, truck, or van - drove alone: 45 to 54 years
+        JY6E014:     Car, truck, or van - drove alone: 55 to 59 years
+        JY6E015:     Car, truck, or van - drove alone: 60 to 64 years
+        JY6E016:     Car, truck, or van - drove alone: 65 years and over
+        JY6E017:     Car, truck, or van - carpooled
+        JY6E018:     Car, truck, or van - carpooled: 16 to 19 years
+        JY6E019:     Car, truck, or van - carpooled: 20 to 24 years
+        JY6E020:     Car, truck, or van - carpooled: 25 to 44 years
+        JY6E021:     Car, truck, or van - carpooled: 45 to 54 years
+        JY6E022:     Car, truck, or van - carpooled: 55 to 59 years
+        JY6E023:     Car, truck, or van - carpooled: 60 to 64 years
+        JY6E024:     Car, truck, or van - carpooled: 65 years and over
+        JY6E025:     Public transportation (excluding taxicab)
+        JY6E026:     Public transportation (excluding taxicab): 16 to 19 years
+        JY6E027:     Public transportation (excluding taxicab): 20 to 24 years
+        JY6E028:     Public transportation (excluding taxicab): 25 to 44 years
+        JY6E029:     Public transportation (excluding taxicab): 45 to 54 years
+        JY6E030:     Public transportation (excluding taxicab): 55 to 59 years
+        JY6E031:     Public transportation (excluding taxicab): 60 to 64 years
+        JY6E032:     Public transportation (excluding taxicab): 65 years and over
+        JY6E033:     Walked
+        JY6E034:     Walked: 16 to 19 years
+        JY6E035:     Walked: 20 to 24 years
+        JY6E036:     Walked: 25 to 44 years
+        JY6E037:     Walked: 45 to 54 years
+        JY6E038:     Walked: 55 to 59 years
+        JY6E039:     Walked: 60 to 64 years
+        JY6E040:     Walked: 65 years and over
+        JY6E041:     Taxicab, motorcycle, bicycle, or other means
+        JY6E042:     Taxicab, motorcycle, bicycle, or other means: 16 to 19 years
+        JY6E043:     Taxicab, motorcycle, bicycle, or other means: 20 to 24 years
+        JY6E044:     Taxicab, motorcycle, bicycle, or other means: 25 to 44 years
+        JY6E045:     Taxicab, motorcycle, bicycle, or other means: 45 to 54 years
+        JY6E046:     Taxicab, motorcycle, bicycle, or other means: 55 to 59 years
+        JY6E047:     Taxicab, motorcycle, bicycle, or other means: 60 to 64 years
+        JY6E048:     Taxicab, motorcycle, bicycle, or other means: 65 years and over
+        JY6E049:     Worked at home
+        JY6E050:     Worked at home: 16 to 19 years
+        JY6E051:     Worked at home: 20 to 24 years
+        JY6E052:     Worked at home: 25 to 44 years
+        JY6E053:     Worked at home: 45 to 54 years
+        JY6E054:     Worked at home: 55 to 59 years
+        JY6E055:     Worked at home: 60 to 64 years
+        JY6E056:     Worked at home: 65 years and over
+ 
+    Table 3:     Median Age by Means of Transportation to Work
+    Universe:    Workers 16 years and over
+    Source code: B08103
+    NHGIS code:  JY7
+        JY7E001:     Median age: Total
+        JY7E002:     Median age: Car, truck, or van - drove alone
+        JY7E003:     Median age: Car, truck, or van - carpooled
+        JY7E004:     Median age: Public transportation (excluding taxicab)
+        JY7E005:     Median age: Walked
+        JY7E006:     Median age: Taxicab, motorcycle, bicycle, or other means
+        JY7E007:     Median age: Worked at home
+ 
+    Table 4:     Means of Transportation to Work by Citizenship Status
+    Universe:    Workers 16 years and over
+    Source code: B08111
+    NHGIS code:  JZH
+        JZHE001:     Total
+        JZHE002:     Native
+        JZHE003:     Foreign born
+        JZHE004:     Foreign born: Naturalized U.S. citizen
+        JZHE005:     Foreign born: Not a U.S. citizen
+        JZHE006:     Car, truck, or van - drove alone
+        JZHE007:     Car, truck, or van - drove alone: Native
+        JZHE008:     Car, truck, or van - drove alone: Foreign born
+        JZHE009:     Car, truck, or van - drove alone: Foreign born: Naturalized U.S. citizen
+        JZHE010:     Car, truck, or van - drove alone: Foreign born: Not a U.S. citizen
+        JZHE011:     Car, truck, or van - carpooled
+        JZHE012:     Car, truck, or van - carpooled: Native
+        JZHE013:     Car, truck, or van - carpooled: Foreign born
+        JZHE014:     Car, truck, or van - carpooled: Foreign born: Naturalized U.S. citizen
+        JZHE015:     Car, truck, or van - carpooled: Foreign born: Not a U.S. citizen
+        JZHE016:     Public transportation (excluding taxicab)
+        JZHE017:     Public transportation (excluding taxicab): Native
+        JZHE018:     Public transportation (excluding taxicab): Foreign born
+        JZHE019:     Public transportation (excluding taxicab): Foreign born: Naturalized U.S. citizen
+        JZHE020:     Public transportation (excluding taxicab): Foreign born: Not a U.S. citizen
+        JZHE021:     Walked
+        JZHE022:     Walked: Native
+        JZHE023:     Walked: Foreign born
+        JZHE024:     Walked: Foreign born: Naturalized U.S. citizen
+        JZHE025:     Walked: Foreign born: Not a U.S. citizen
+        JZHE026:     Taxicab, motorcycle, bicycle, or other means
+        JZHE027:     Taxicab, motorcycle, bicycle, or other means: Native
+        JZHE028:     Taxicab, motorcycle, bicycle, or other means: Foreign born
+        JZHE029:     Taxicab, motorcycle, bicycle, or other means: Foreign born: Naturalized U.S. citizen
+        JZHE030:     Taxicab, motorcycle, bicycle, or other means: Foreign born: Not a U.S. citizen
+        JZHE031:     Worked at home
+        JZHE032:     Worked at home: Native
+        JZHE033:     Worked at home: Foreign born
+        JZHE034:     Worked at home: Foreign born: Naturalized U.S. citizen
+        JZHE035:     Worked at home: Foreign born: Not a U.S. citizen
+ 
+    Table 5:     Means of Transportation to Work by Language Spoken at Home and Ability to Speak English
+    Universe:    Workers 16 years and over
+    Source code: B08113
+    NHGIS code:  JZI
+        JZIE001:     Total
+        JZIE002:     Speak only English
+        JZIE003:     Speak Spanish
+        JZIE004:     Speak Spanish: Speak English 'very well'
+        JZIE005:     Speak Spanish: Speak English less than 'very well'
+        JZIE006:     Speak other languages
+        JZIE007:     Speak other languages: Speak English 'very well'
+        JZIE008:     Speak other languages: Speak English less than 'very well'
+        JZIE009:     Car, truck, or van - drove alone
+        JZIE010:     Car, truck, or van - drove alone: Speak only English
+        JZIE011:     Car, truck, or van - drove alone: Speak Spanish
+        JZIE012:     Car, truck, or van - drove alone: Speak Spanish: Speak English 'very well'
+        JZIE013:     Car, truck, or van - drove alone: Speak Spanish: Speak English less than 'very well'
+        JZIE014:     Car, truck, or van - drove alone: Speak other languages
+        JZIE015:     Car, truck, or van - drove alone: Speak other languages: Speak English 'very well'
+        JZIE016:     Car, truck, or van - drove alone: Speak other languages: Speak English less than 'very well'
+        JZIE017:     Car, truck, or van - carpooled
+        JZIE018:     Car, truck, or van - carpooled: Speak only English
+        JZIE019:     Car, truck, or van - carpooled: Speak Spanish
+        JZIE020:     Car, truck, or van - carpooled: Speak Spanish: Speak English 'very well'
+        JZIE021:     Car, truck, or van - carpooled: Speak Spanish: Speak English less than 'very well'
+        JZIE022:     Car, truck, or van - carpooled: Speak other languages
+        JZIE023:     Car, truck, or van - carpooled: Speak other languages: Speak English 'very well'
+        JZIE024:     Car, truck, or van - carpooled: Speak other languages: Speak English less than 'very well'
+        JZIE025:     Public transportation (excluding taxicab)
+        JZIE026:     Public transportation (excluding taxicab): Speak only English
+        JZIE027:     Public transportation (excluding taxicab): Speak Spanish
+        JZIE028:     Public transportation (excluding taxicab): Speak Spanish: Speak English 'very well'
+        JZIE029:     Public transportation (excluding taxicab): Speak Spanish: Speak English less than 'very well'
+        JZIE030:     Public transportation (excluding taxicab): Speak other languages
+        JZIE031:     Public transportation (excluding taxicab): Speak other languages: Speak English 'very well'
+        JZIE032:     Public transportation (excluding taxicab): Speak other languages: Speak English less than 'very well'
+        JZIE033:     Walked
+        JZIE034:     Walked: Speak only English
+        JZIE035:     Walked: Speak Spanish
+        JZIE036:     Walked: Speak Spanish: Speak English 'very well'
+        JZIE037:     Walked: Speak Spanish: Speak English less than 'very well'
+        JZIE038:     Walked: Speak other languages
+        JZIE039:     Walked: Speak other languages: Speak English 'very well'
+        JZIE040:     Walked: Speak other languages: Speak English less than 'very well'
+        JZIE041:     Taxicab, motorcycle, bicycle, or other means
+        JZIE042:     Taxicab, motorcycle, bicycle, or other means: Speak only English
+        JZIE043:     Taxicab, motorcycle, bicycle, or other means: Speak Spanish
+        JZIE044:     Taxicab, motorcycle, bicycle, or other means: Speak Spanish: Speak English 'very well'
+        JZIE045:     Taxicab, motorcycle, bicycle, or other means: Speak Spanish: Speak English less than 'very well'
+        JZIE046:     Taxicab, motorcycle, bicycle, or other means: Speak other languages
+        JZIE047:     Taxicab, motorcycle, bicycle, or other means: Speak other languages: Speak English 'very well'
+        JZIE048:     Taxicab, motorcycle, bicycle, or other means: Speak other languages: Speak English less than 'very well'
+        JZIE049:     Worked at home
+        JZIE050:     Worked at home: Speak only English
+        JZIE051:     Worked at home: Speak Spanish
+        JZIE052:     Worked at home: Speak Spanish: Speak English 'very well'
+        JZIE053:     Worked at home: Speak Spanish: Speak English less than 'very well'
+        JZIE054:     Worked at home: Speak other languages
+        JZIE055:     Worked at home: Speak other languages: Speak English 'very well'
+        JZIE056:     Worked at home: Speak other languages: Speak English less than 'very well'
+ 
+    Table 6:     Means of Transportation to Work by Workers' Earnings in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+    Universe:    Workers 16 years and over with earnings
+    Source code: B08119
+    NHGIS code:  JZJ
+        JZJE001:     Total
+        JZJE002:     $1 to $9,999 or loss
+        JZJE003:     $10,000 to $14,999
+        JZJE004:     $15,000 to $24,999
+        JZJE005:     $25,000 to $34,999
+        JZJE006:     $35,000 to $49,999
+        JZJE007:     $50,000 to $64,999
+        JZJE008:     $65,000 to $74,999
+        JZJE009:     $75,000 or more
+        JZJE010:     Car, truck, or van - drove alone
+        JZJE011:     Car, truck, or van - drove alone: $1 to $9,999 or loss
+        JZJE012:     Car, truck, or van - drove alone: $10,000 to $14,999
+        JZJE013:     Car, truck, or van - drove alone: $15,000 to $24,999
+        JZJE014:     Car, truck, or van - drove alone: $25,000 to $34,999
+        JZJE015:     Car, truck, or van - drove alone: $35,000 to $49,999
+        JZJE016:     Car, truck, or van - drove alone: $50,000 to $64,999
+        JZJE017:     Car, truck, or van - drove alone: $65,000 to $74,999
+        JZJE018:     Car, truck, or van - drove alone: $75,000 or more
+        JZJE019:     Car, truck, or van - carpooled
+        JZJE020:     Car, truck, or van - carpooled: $1 to $9,999 or loss
+        JZJE021:     Car, truck, or van - carpooled: $10,000 to $14,999
+        JZJE022:     Car, truck, or van - carpooled: $15,000 to $24,999
+        JZJE023:     Car, truck, or van - carpooled: $25,000 to $34,999
+        JZJE024:     Car, truck, or van - carpooled: $35,000 to $49,999
+        JZJE025:     Car, truck, or van - carpooled: $50,000 to $64,999
+        JZJE026:     Car, truck, or van - carpooled: $65,000 to $74,999
+        JZJE027:     Car, truck, or van - carpooled: $75,000 or more
+        JZJE028:     Public transportation (excluding taxicab)
+        JZJE029:     Public transportation (excluding taxicab): $1 to $9,999 or loss
+        JZJE030:     Public transportation (excluding taxicab): $10,000 to $14,999
+        JZJE031:     Public transportation (excluding taxicab): $15,000 to $24,999
+        JZJE032:     Public transportation (excluding taxicab): $25,000 to $34,999
+        JZJE033:     Public transportation (excluding taxicab): $35,000 to $49,999
+        JZJE034:     Public transportation (excluding taxicab): $50,000 to $64,999
+        JZJE035:     Public transportation (excluding taxicab): $65,000 to $74,999
+        JZJE036:     Public transportation (excluding taxicab): $75,000 or more
+        JZJE037:     Walked
+        JZJE038:     Walked: $1 to $9,999 or loss
+        JZJE039:     Walked: $10,000 to $14,999
+        JZJE040:     Walked: $15,000 to $24,999
+        JZJE041:     Walked: $25,000 to $34,999
+        JZJE042:     Walked: $35,000 to $49,999
+        JZJE043:     Walked: $50,000 to $64,999
+        JZJE044:     Walked: $65,000 to $74,999
+        JZJE045:     Walked: $75,000 or more
+        JZJE046:     Taxicab, motorcycle, bicycle, or other means
+        JZJE047:     Taxicab, motorcycle, bicycle, or other means: $1 to $9,999 or loss
+        JZJE048:     Taxicab, motorcycle, bicycle, or other means: $10,000 to $14,999
+        JZJE049:     Taxicab, motorcycle, bicycle, or other means: $15,000 to $24,999
+        JZJE050:     Taxicab, motorcycle, bicycle, or other means: $25,000 to $34,999
+        JZJE051:     Taxicab, motorcycle, bicycle, or other means: $35,000 to $49,999
+        JZJE052:     Taxicab, motorcycle, bicycle, or other means: $50,000 to $64,999
+        JZJE053:     Taxicab, motorcycle, bicycle, or other means: $65,000 to $74,999
+        JZJE054:     Taxicab, motorcycle, bicycle, or other means: $75,000 or more
+        JZJE055:     Worked at home
+        JZJE056:     Worked at home: $1 to $9,999 or loss
+        JZJE057:     Worked at home: $10,000 to $14,999
+        JZJE058:     Worked at home: $15,000 to $24,999
+        JZJE059:     Worked at home: $25,000 to $34,999
+        JZJE060:     Worked at home: $35,000 to $49,999
+        JZJE061:     Worked at home: $50,000 to $64,999
+        JZJE062:     Worked at home: $65,000 to $74,999
+        JZJE063:     Worked at home: $75,000 or more
+ 
+    Table 7:     Median Earnings in the Past 12 Months (in 2010 Inflation-Adjusted Dollars) by Means of Transportation to Work
+    Universe:    Workers 16 years and over with earnings
+    Source code: B08121
+    NHGIS code:  JZK
+        JZKE001:     Median earnings in the past 12 months: Total
+        JZKE002:     Median earnings in the past 12 months: Car, truck, or van - drove alone
+        JZKE003:     Median earnings in the past 12 months: Car, truck, or van - carpooled
+        JZKE004:     Median earnings in the past 12 months: Public transportation (excluding taxicab)
+        JZKE005:     Median earnings in the past 12 months: Walked
+        JZKE006:     Median earnings in the past 12 months: Taxicab, motorcycle, bicycle, or other means
+        JZKE007:     Median earnings in the past 12 months: Worked at home
+ 
+    Table 8:     Means of Transportation to Work by Poverty Status in the Past 12 Months
+    Universe:    Workers 16 years and over for whom poverty status is determined
+    Source code: B08122
+    NHGIS code:  JZL
+        JZLE001:     Total
+        JZLE002:     Below 100 percent of the poverty level
+        JZLE003:     100 to 149 percent of the poverty level
+        JZLE004:     At or above 150 percent of the poverty level
+        JZLE005:     Car, truck, or van - drove alone
+        JZLE006:     Car, truck, or van - drove alone: Below 100 percent of the poverty level
+        JZLE007:     Car, truck, or van - drove alone: 100 to 149 percent of the poverty level
+        JZLE008:     Car, truck, or van - drove alone: At or above 150 percent of the poverty level
+        JZLE009:     Car, truck, or van - carpooled
+        JZLE010:     Car, truck, or van - carpooled: Below 100 percent of the poverty level
+        JZLE011:     Car, truck, or van - carpooled: 100 to 149 percent of the poverty level
+        JZLE012:     Car, truck, or van - carpooled: At or above 150 percent of the poverty level
+        JZLE013:     Public transportation (excluding taxicab)
+        JZLE014:     Public transportation (excluding taxicab): Below 100 percent of the poverty level
+        JZLE015:     Public transportation (excluding taxicab): 100 to 149 percent of the poverty level
+        JZLE016:     Public transportation (excluding taxicab): At or above 150 percent of the poverty level
+        JZLE017:     Walked
+        JZLE018:     Walked: Below 100 percent of the poverty level
+        JZLE019:     Walked: 100 to 149 percent of the poverty level
+        JZLE020:     Walked: At or above 150 percent of the poverty level
+        JZLE021:     Taxicab, motorcycle, bicycle, or other means
+        JZLE022:     Taxicab, motorcycle, bicycle, or other means: Below 100 percent of the poverty level
+        JZLE023:     Taxicab, motorcycle, bicycle, or other means: 100 to 149 percent of the poverty level
+        JZLE024:     Taxicab, motorcycle, bicycle, or other means: At or above 150 percent of the poverty level
+        JZLE025:     Worked at home
+        JZLE026:     Worked at home: Below 100 percent of the poverty level
+        JZLE027:     Worked at home: 100 to 149 percent of the poverty level
+        JZLE028:     Worked at home: At or above 150 percent of the poverty level
+ 
+    Table 9:     Means of Transportation to Work by Occupation
+    Universe:    Workers 16 years and over
+    Source code: B08124
+    NHGIS code:  JZM
+        JZME001:     Total
+        JZME002:     Management, business, science, and arts occupations
+        JZME003:     Service occupations
+        JZME004:     Sales and office occupations
+        JZME005:     Natural resources, construction, and maintenance occupations
+        JZME006:     Production, transportation, and material moving occupations
+        JZME007:     Military specific occupations
+        JZME008:     Car, truck, or van - drove alone
+        JZME009:     Car, truck, or van - drove alone: Management, business, science, and arts occupations
+        JZME010:     Car, truck, or van - drove alone: Service occupations
+        JZME011:     Car, truck, or van - drove alone: Sales and office occupations
+        JZME012:     Car, truck, or van - drove alone: Natural resources, construction, and maintenance occupations
+        JZME013:     Car, truck, or van - drove alone: Production, transportation, and material moving occupations
+        JZME014:     Car, truck, or van - drove alone: Military specific occupations
+        JZME015:     Car, truck, or van - carpooled
+        JZME016:     Car, truck, or van - carpooled: Management, business, science, and arts occupations
+        JZME017:     Car, truck, or van - carpooled: Service occupations
+        JZME018:     Car, truck, or van - carpooled: Sales and office occupations
+        JZME019:     Car, truck, or van - carpooled: Natural resources, construction, and maintenance occupations
+        JZME020:     Car, truck, or van - carpooled: Production, transportation, and material moving occupations
+        JZME021:     Car, truck, or van - carpooled: Military specific occupations
+        JZME022:     Public transportation (excluding taxicab)
+        JZME023:     Public transportation (excluding taxicab): Management, business, science, and arts occupations
+        JZME024:     Public transportation (excluding taxicab): Service occupations
+        JZME025:     Public transportation (excluding taxicab): Sales and office occupations
+        JZME026:     Public transportation (excluding taxicab): Natural resources, construction, and maintenance occupations
+        JZME027:     Public transportation (excluding taxicab): Production, transportation, and material moving occupations
+        JZME028:     Public transportation (excluding taxicab): Military specific occupations
+        JZME029:     Walked
+        JZME030:     Walked: Management, business, science, and arts occupations
+        JZME031:     Walked: Service occupations
+        JZME032:     Walked: Sales and office occupations
+        JZME033:     Walked: Natural resources, construction, and maintenance occupations
+        JZME034:     Walked: Production, transportation, and material moving occupations
+        JZME035:     Walked: Military specific occupations
+        JZME036:     Taxicab, motorcycle, bicycle, or other means
+        JZME037:     Taxicab, motorcycle, bicycle, or other means: Management, business, science, and arts occupations
+        JZME038:     Taxicab, motorcycle, bicycle, or other means: Service occupations
+        JZME039:     Taxicab, motorcycle, bicycle, or other means: Sales and office occupations
+        JZME040:     Taxicab, motorcycle, bicycle, or other means: Natural resources, construction, and maintenance occupations
+        JZME041:     Taxicab, motorcycle, bicycle, or other means: Production, transportation, and material moving occupations
+        JZME042:     Taxicab, motorcycle, bicycle, or other means: Military specific occupations
+        JZME043:     Worked at home
+        JZME044:     Worked at home: Management, business, science, and arts occupations
+        JZME045:     Worked at home: Service occupations
+        JZME046:     Worked at home: Sales and office occupations
+        JZME047:     Worked at home: Natural resources, construction, and maintenance occupations
+        JZME048:     Worked at home: Production, transportation, and material moving occupations
+        JZME049:     Worked at home: Military specific occupations
+ 
+    Table 10:    Means of Transportation to Work by Industry
+    Universe:    Workers 16 years and over
+    Source code: B08126
+    NHGIS code:  JZN
+        JZNE001:     Total
+        JZNE002:     Agriculture, forestry, fishing and hunting, and mining
+        JZNE003:     Construction
+        JZNE004:     Manufacturing
+        JZNE005:     Wholesale trade
+        JZNE006:     Retail trade
+        JZNE007:     Transportation and warehousing, and utilities
+        JZNE008:     Information
+        JZNE009:     Finance and insurance, and real estate and rental and leasing
+        JZNE010:     Professional, scientific, and management, and administrative and waste management services
+        JZNE011:     Educational services, and health care and social assistance
+        JZNE012:     Arts, entertainment, and recreation, and accommodation and food services
+        JZNE013:     Other services (except public administration)
+        JZNE014:     Public administration
+        JZNE015:     Armed forces
+        JZNE016:     Car, truck, or van - drove alone
+        JZNE017:     Car, truck, or van - drove alone: Agriculture, forestry, fishing and hunting, and mining
+        JZNE018:     Car, truck, or van - drove alone: Construction
+        JZNE019:     Car, truck, or van - drove alone: Manufacturing
+        JZNE020:     Car, truck, or van - drove alone: Wholesale trade
+        JZNE021:     Car, truck, or van - drove alone: Retail trade
+        JZNE022:     Car, truck, or van - drove alone: Transportation and warehousing, and utilities
+        JZNE023:     Car, truck, or van - drove alone: Information
+        JZNE024:     Car, truck, or van - drove alone: Finance and insurance, and real estate and rental and leasing
+        JZNE025:     Car, truck, or van - drove alone: Professional, scientific, and management, and administrative and waste management services
+        JZNE026:     Car, truck, or van - drove alone: Educational services, and health care and social assistance
+        JZNE027:     Car, truck, or van - drove alone: Arts, entertainment, and recreation, and accommodation and food services
+        JZNE028:     Car, truck, or van - drove alone: Other services (except public administration)
+        JZNE029:     Car, truck, or van - drove alone: Public administration
+        JZNE030:     Car, truck, or van - drove alone: Armed forces
+        JZNE031:     Car, truck, or van - carpooled
+        JZNE032:     Car, truck, or van - carpooled: Agriculture, forestry, fishing and hunting, and mining
+        JZNE033:     Car, truck, or van - carpooled: Construction
+        JZNE034:     Car, truck, or van - carpooled: Manufacturing
+        JZNE035:     Car, truck, or van - carpooled: Wholesale trade
+        JZNE036:     Car, truck, or van - carpooled: Retail trade
+        JZNE037:     Car, truck, or van - carpooled: Transportation and warehousing, and utilities
+        JZNE038:     Car, truck, or van - carpooled: Information
+        JZNE039:     Car, truck, or van - carpooled: Finance and insurance, and real estate and rental and leasing
+        JZNE040:     Car, truck, or van - carpooled: Professional, scientific, and management, and administrative and waste management services
+        JZNE041:     Car, truck, or van - carpooled: Educational services, and health care and social assistance
+        JZNE042:     Car, truck, or van - carpooled: Arts, entertainment, and recreation, and accommodation and food services
+        JZNE043:     Car, truck, or van - carpooled: Other services (except public administration)
+        JZNE044:     Car, truck, or van - carpooled: Public administration
+        JZNE045:     Car, truck, or van - carpooled: Armed forces
+        JZNE046:     Public transportation (excluding taxicab)
+        JZNE047:     Public transportation (excluding taxicab): Agriculture, forestry, fishing and hunting, and mining
+        JZNE048:     Public transportation (excluding taxicab): Construction
+        JZNE049:     Public transportation (excluding taxicab): Manufacturing
+        JZNE050:     Public transportation (excluding taxicab): Wholesale trade
+        JZNE051:     Public transportation (excluding taxicab): Retail trade
+        JZNE052:     Public transportation (excluding taxicab): Transportation and warehousing, and utilities
+        JZNE053:     Public transportation (excluding taxicab): Information
+        JZNE054:     Public transportation (excluding taxicab): Finance and insurance, and real estate and rental and leasing
+        JZNE055:     Public transportation (excluding taxicab): Professional, scientific, and management, and administrative and waste management services
+        JZNE056:     Public transportation (excluding taxicab): Educational services, and health care and social assistance
+        JZNE057:     Public transportation (excluding taxicab): Arts, entertainment, and recreation, and accommodation and food services
+        JZNE058:     Public transportation (excluding taxicab): Other services (except public administration)
+        JZNE059:     Public transportation (excluding taxicab): Public administration
+        JZNE060:     Public transportation (excluding taxicab): Armed forces
+        JZNE061:     Walked
+        JZNE062:     Walked: Agriculture, forestry, fishing and hunting, and mining
+        JZNE063:     Walked: Construction
+        JZNE064:     Walked: Manufacturing
+        JZNE065:     Walked: Wholesale trade
+        JZNE066:     Walked: Retail trade
+        JZNE067:     Walked: Transportation and warehousing, and utilities
+        JZNE068:     Walked: Information
+        JZNE069:     Walked: Finance and insurance, and real estate and rental and leasing
+        JZNE070:     Walked: Professional, scientific, and management, and administrative and waste management services
+        JZNE071:     Walked: Educational services, and health care and social assistance
+        JZNE072:     Walked: Arts, entertainment, and recreation, and accommodation and food services
+        JZNE073:     Walked: Other services (except public administration)
+        JZNE074:     Walked: Public administration
+        JZNE075:     Walked: Armed forces
+        JZNE076:     Taxicab, motorcycle, bicycle, or other means
+        JZNE077:     Taxicab, motorcycle, bicycle, or other means: Agriculture, forestry, fishing and hunting, and mining
+        JZNE078:     Taxicab, motorcycle, bicycle, or other means: Construction
+        JZNE079:     Taxicab, motorcycle, bicycle, or other means: Manufacturing
+        JZNE080:     Taxicab, motorcycle, bicycle, or other means: Wholesale trade
+        JZNE081:     Taxicab, motorcycle, bicycle, or other means: Retail trade
+        JZNE082:     Taxicab, motorcycle, bicycle, or other means: Transportation and warehousing, and utilities
+        JZNE083:     Taxicab, motorcycle, bicycle, or other means: Information
+        JZNE084:     Taxicab, motorcycle, bicycle, or other means: Finance and insurance, and real estate and rental and leasing
+        JZNE085:     Taxicab, motorcycle, bicycle, or other means: Professional, scientific, and management, and administrative and waste management services
+        JZNE086:     Taxicab, motorcycle, bicycle, or other means: Educational services, and health care and social assistance
+        JZNE087:     Taxicab, motorcycle, bicycle, or other means: Arts, entertainment, and recreation, and accommodation and food services
+        JZNE088:     Taxicab, motorcycle, bicycle, or other means: Other services (except public administration)
+        JZNE089:     Taxicab, motorcycle, bicycle, or other means: Public administration
+        JZNE090:     Taxicab, motorcycle, bicycle, or other means: Armed forces
+        JZNE091:     Worked at home
+        JZNE092:     Worked at home: Agriculture, forestry, fishing and hunting, and mining
+        JZNE093:     Worked at home: Construction
+        JZNE094:     Worked at home: Manufacturing
+        JZNE095:     Worked at home: Wholesale trade
+        JZNE096:     Worked at home: Retail trade
+        JZNE097:     Worked at home: Transportation and warehousing, and utilities
+        JZNE098:     Worked at home: Information
+        JZNE099:     Worked at home: Finance and insurance, and real estate and rental and leasing
+        JZNE100:     Worked at home: Professional, scientific, and management, and administrative and waste management services
+        JZNE101:     Worked at home: Educational services, and health care and social assistance
+        JZNE102:     Worked at home: Arts, entertainment, and recreation, and accommodation and food services
+        JZNE103:     Worked at home: Other services (except public administration)
+        JZNE104:     Worked at home: Public administration
+        JZNE105:     Worked at home: Armed forces
+ 
+    Table 11:    Means of Transportation to Work by Class of Worker
+    Universe:    Workers 16 years and over
+    Source code: B08128
+    NHGIS code:  JZO
+        JZOE001:     Total
+        JZOE002:     Private for-profit wage and salary workers
+        JZOE003:     Private for-profit wage and salary workers: Employee of private company workers
+        JZOE004:     Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOE005:     Private not-for-profit wage and salary workers
+        JZOE006:     Local government workers
+        JZOE007:     State government workers
+        JZOE008:     Federal government workers
+        JZOE009:     Self-employed in own not incorporated business workers
+        JZOE010:     Unpaid family workers
+        JZOE011:     Car, truck, or van - drove alone
+        JZOE012:     Car, truck, or van - drove alone: Private for-profit wage and salary workers
+        JZOE013:     Car, truck, or van - drove alone: Private for-profit wage and salary workers: Employee of private company workers
+        JZOE014:     Car, truck, or van - drove alone: Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOE015:     Car, truck, or van - drove alone: Private not-for-profit wage and salary workers
+        JZOE016:     Car, truck, or van - drove alone: Local government workers
+        JZOE017:     Car, truck, or van - drove alone: State government workers
+        JZOE018:     Car, truck, or van - drove alone: Federal government workers
+        JZOE019:     Car, truck, or van - drove alone: Self-employed in own not incorporated business workers
+        JZOE020:     Car, truck, or van - drove alone: Unpaid family workers
+        JZOE021:     Car, truck, or van - carpooled
+        JZOE022:     Car, truck, or van - carpooled: Private for-profit wage and salary workers
+        JZOE023:     Car, truck, or van - carpooled: Private for-profit wage and salary workers: Employee of private company workers
+        JZOE024:     Car, truck, or van - carpooled: Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOE025:     Car, truck, or van - carpooled: Private not-for-profit wage and salary workers
+        JZOE026:     Car, truck, or van - carpooled: Local government workers
+        JZOE027:     Car, truck, or van - carpooled: State government workers
+        JZOE028:     Car, truck, or van - carpooled: Federal government workers
+        JZOE029:     Car, truck, or van - carpooled: Self-employed in own not incorporated business workers
+        JZOE030:     Car, truck, or van - carpooled: Unpaid family workers
+        JZOE031:     Public transportation (excluding taxicab)
+        JZOE032:     Public transportation (excluding taxicab): Private for-profit wage and salary workers
+        JZOE033:     Public transportation (excluding taxicab): Private for-profit wage and salary workers: Employee of private company workers
+        JZOE034:     Public transportation (excluding taxicab): Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOE035:     Public transportation (excluding taxicab): Private not-for-profit wage and salary workers
+        JZOE036:     Public transportation (excluding taxicab): Local government workers
+        JZOE037:     Public transportation (excluding taxicab): State government workers
+        JZOE038:     Public transportation (excluding taxicab): Federal government workers
+        JZOE039:     Public transportation (excluding taxicab): Self-employed in own not incorporated business workers
+        JZOE040:     Public transportation (excluding taxicab): Unpaid family workers
+        JZOE041:     Walked
+        JZOE042:     Walked: Private for-profit wage and salary workers
+        JZOE043:     Walked: Private for-profit wage and salary workers: Employee of private company workers
+        JZOE044:     Walked: Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOE045:     Walked: Private not-for-profit wage and salary workers
+        JZOE046:     Walked: Local government workers
+        JZOE047:     Walked: State government workers
+        JZOE048:     Walked: Federal government workers
+        JZOE049:     Walked: Self-employed in own not incorporated business workers
+        JZOE050:     Walked: Unpaid family workers
+        JZOE051:     Taxicab, motorcycle, bicycle, or other means
+        JZOE052:     Taxicab, motorcycle, bicycle, or other means: Private for-profit wage and salary workers
+        JZOE053:     Taxicab, motorcycle, bicycle, or other means: Private for-profit wage and salary workers: Employee of private company workers
+        JZOE054:     Taxicab, motorcycle, bicycle, or other means: Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOE055:     Taxicab, motorcycle, bicycle, or other means: Private not-for-profit wage and salary workers
+        JZOE056:     Taxicab, motorcycle, bicycle, or other means: Local government workers
+        JZOE057:     Taxicab, motorcycle, bicycle, or other means: State government workers
+        JZOE058:     Taxicab, motorcycle, bicycle, or other means: Federal government workers
+        JZOE059:     Taxicab, motorcycle, bicycle, or other means: Self-employed in own not incorporated business workers
+        JZOE060:     Taxicab, motorcycle, bicycle, or other means: Unpaid family workers
+        JZOE061:     Worked at home
+        JZOE062:     Worked at home: Private for-profit wage and salary workers
+        JZOE063:     Worked at home: Private for-profit wage and salary workers: Employee of private company workers
+        JZOE064:     Worked at home: Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOE065:     Worked at home: Private not-for-profit wage and salary workers
+        JZOE066:     Worked at home: Local government workers
+        JZOE067:     Worked at home: State government workers
+        JZOE068:     Worked at home: Federal government workers
+        JZOE069:     Worked at home: Self-employed in own not incorporated business workers
+        JZOE070:     Worked at home: Unpaid family workers
+ 
+    Table 12:    Means of Transportation to Work by Place of Work--State and County Level
+    Universe:    Workers 16 years and over
+    Source code: B08130
+    NHGIS code:  JZP
+        JZPE001:     Total
+        JZPE002:     Worked in state of residence
+        JZPE003:     Worked in state of residence: Worked in county of residence
+        JZPE004:     Worked in state of residence: Worked outside county of residence
+        JZPE005:     Worked outside state of residence
+        JZPE006:     Car, truck, or van - drove alone
+        JZPE007:     Car, truck, or van - drove alone: Worked in state of residence
+        JZPE008:     Car, truck, or van - drove alone: Worked in state of residence: Worked in county of residence
+        JZPE009:     Car, truck, or van - drove alone: Worked in state of residence: Worked outside county of residence
+        JZPE010:     Car, truck, or van - drove alone: Worked outside state of residence
+        JZPE011:     Car, truck, or van - carpooled
+        JZPE012:     Car, truck, or van - carpooled: Worked in state of residence
+        JZPE013:     Car, truck, or van - carpooled: Worked in state of residence: Worked in county of residence
+        JZPE014:     Car, truck, or van - carpooled: Worked in state of residence: Worked outside county of residence
+        JZPE015:     Car, truck, or van - carpooled: Worked outside state of residence
+        JZPE016:     Public transportation (excluding taxicab)
+        JZPE017:     Public transportation (excluding taxicab): Worked in state of residence
+        JZPE018:     Public transportation (excluding taxicab): Worked in state of residence: Worked in county of residence
+        JZPE019:     Public transportation (excluding taxicab): Worked in state of residence: Worked outside county of residence
+        JZPE020:     Public transportation (excluding taxicab): Worked outside state of residence
+        JZPE021:     Walked
+        JZPE022:     Walked: Worked in state of residence
+        JZPE023:     Walked: Worked in state of residence: Worked in county of residence
+        JZPE024:     Walked: Worked in state of residence: Worked outside county of residence
+        JZPE025:     Walked: Worked outside state of residence
+        JZPE026:     Taxicab, motorcycle, bicycle, or other means
+        JZPE027:     Taxicab, motorcycle, bicycle, or other means: Worked in state of residence
+        JZPE028:     Taxicab, motorcycle, bicycle, or other means: Worked in state of residence: Worked in county of residence
+        JZPE029:     Taxicab, motorcycle, bicycle, or other means: Worked in state of residence: Worked outside county of residence
+        JZPE030:     Taxicab, motorcycle, bicycle, or other means: Worked outside state of residence
+        JZPE031:     Worked at home
+ 
+    Table 13:    Means of Transportation to Work by Time Leaving Home to Go to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: B08132
+    NHGIS code:  JZR
+        JZRE001:     Total
+        JZRE002:     12:00 a.m. to 4:59 a.m.
+        JZRE003:     5:00 a.m. to 5:29 a.m.
+        JZRE004:     5:30 a.m. to 5:59 a.m.
+        JZRE005:     6:00 a.m. to 6:29 a.m.
+        JZRE006:     6:30 a.m. to 6:59 a.m.
+        JZRE007:     7:00 a.m. to 7:29 a.m.
+        JZRE008:     7:30 a.m. to 7:59 a.m.
+        JZRE009:     8:00 a.m. to 8:29 a.m.
+        JZRE010:     8:30 a.m. to 8:59 a.m.
+        JZRE011:     9:00 a.m. to 9:59 a.m.
+        JZRE012:     10:00 a.m. to 10:59 a.m.
+        JZRE013:     11:00 a.m. to 11:59 a.m.
+        JZRE014:     12:00 p.m. to 3:59 p.m.
+        JZRE015:     4:00 p.m. to 11:59 p.m.
+        JZRE016:     Car, truck, or van - drove alone
+        JZRE017:     Car, truck, or van - drove alone: 12:00 a.m. to 4:59 a.m.
+        JZRE018:     Car, truck, or van - drove alone: 5:00 a.m. to 5:29 a.m.
+        JZRE019:     Car, truck, or van - drove alone: 5:30 a.m. to 5:59 a.m.
+        JZRE020:     Car, truck, or van - drove alone: 6:00 a.m. to 6:29 a.m.
+        JZRE021:     Car, truck, or van - drove alone: 6:30 a.m. to 6:59 a.m.
+        JZRE022:     Car, truck, or van - drove alone: 7:00 a.m. to 7:29 a.m.
+        JZRE023:     Car, truck, or van - drove alone: 7:30 a.m. to 7:59 a.m.
+        JZRE024:     Car, truck, or van - drove alone: 8:00 a.m. to 8:29 a.m.
+        JZRE025:     Car, truck, or van - drove alone: 8:30 a.m. to 8:59 a.m.
+        JZRE026:     Car, truck, or van - drove alone: 9:00 a.m. to 9:59 a.m.
+        JZRE027:     Car, truck, or van - drove alone: 10:00 a.m. to 10:59 a.m.
+        JZRE028:     Car, truck, or van - drove alone: 11:00 a.m. to 11:59 a.m.
+        JZRE029:     Car, truck, or van - drove alone: 12:00 p.m. to 3:59 p.m.
+        JZRE030:     Car, truck, or van - drove alone: 4:00 p.m. to 11:59 p.m.
+        JZRE031:     Car, truck, or van - carpooled
+        JZRE032:     Car, truck, or van - carpooled: 12:00 a.m. to 4:59 a.m.
+        JZRE033:     Car, truck, or van - carpooled: 5:00 a.m. to 5:29 a.m.
+        JZRE034:     Car, truck, or van - carpooled: 5:30 a.m. to 5:59 a.m.
+        JZRE035:     Car, truck, or van - carpooled: 6:00 a.m. to 6:29 a.m.
+        JZRE036:     Car, truck, or van - carpooled: 6:30 a.m. to 6:59 a.m.
+        JZRE037:     Car, truck, or van - carpooled: 7:00 a.m. to 7:29 a.m.
+        JZRE038:     Car, truck, or van - carpooled: 7:30 a.m. to 7:59 a.m.
+        JZRE039:     Car, truck, or van - carpooled: 8:00 a.m. to 8:29 a.m.
+        JZRE040:     Car, truck, or van - carpooled: 8:30 a.m. to 8:59 a.m.
+        JZRE041:     Car, truck, or van - carpooled: 9:00 a.m. to 9:59 a.m.
+        JZRE042:     Car, truck, or van - carpooled: 10:00 a.m. to 10:59 a.m.
+        JZRE043:     Car, truck, or van - carpooled: 11:00 a.m. to 11:59 a.m.
+        JZRE044:     Car, truck, or van - carpooled: 12:00 p.m. to 3:59 p.m.
+        JZRE045:     Car, truck, or van - carpooled: 4:00 p.m. to 11:59 p.m.
+        JZRE046:     Public transportation (excluding taxicab)
+        JZRE047:     Public transportation (excluding taxicab): 12:00 a.m. to 4:59 a.m.
+        JZRE048:     Public transportation (excluding taxicab): 5:00 a.m. to 5:29 a.m.
+        JZRE049:     Public transportation (excluding taxicab): 5:30 a.m. to 5:59 a.m.
+        JZRE050:     Public transportation (excluding taxicab): 6:00 a.m. to 6:29 a.m.
+        JZRE051:     Public transportation (excluding taxicab): 6:30 a.m. to 6:59 a.m.
+        JZRE052:     Public transportation (excluding taxicab): 7:00 a.m. to 7:29 a.m.
+        JZRE053:     Public transportation (excluding taxicab): 7:30 a.m. to 7:59 a.m.
+        JZRE054:     Public transportation (excluding taxicab): 8:00 a.m. to 8:29 a.m.
+        JZRE055:     Public transportation (excluding taxicab): 8:30 a.m. to 8:59 a.m.
+        JZRE056:     Public transportation (excluding taxicab): 9:00 a.m. to 9:59 a.m.
+        JZRE057:     Public transportation (excluding taxicab): 10:00 a.m. to 10:59 a.m.
+        JZRE058:     Public transportation (excluding taxicab): 11:00 a.m. to 11:59 a.m.
+        JZRE059:     Public transportation (excluding taxicab): 12:00 p.m. to 3:59 p.m.
+        JZRE060:     Public transportation (excluding taxicab): 4:00 p.m. to 11:59 p.m.
+        JZRE061:     Walked
+        JZRE062:     Walked: 12:00 a.m. to 4:59 a.m.
+        JZRE063:     Walked: 5:00 a.m. to 5:29 a.m.
+        JZRE064:     Walked: 5:30 a.m. to 5:59 a.m.
+        JZRE065:     Walked: 6:00 a.m. to 6:29 a.m.
+        JZRE066:     Walked: 6:30 a.m. to 6:59 a.m.
+        JZRE067:     Walked: 7:00 a.m. to 7:29 a.m.
+        JZRE068:     Walked: 7:30 a.m. to 7:59 a.m.
+        JZRE069:     Walked: 8:00 a.m. to 8:29 a.m.
+        JZRE070:     Walked: 8:30 a.m. to 8:59 a.m.
+        JZRE071:     Walked: 9:00 a.m. to 9:59 a.m.
+        JZRE072:     Walked: 10:00 a.m. to 10:59 a.m.
+        JZRE073:     Walked: 11:00 a.m. to 11:59 a.m.
+        JZRE074:     Walked: 12:00 p.m. to 3:59 p.m.
+        JZRE075:     Walked: 4:00 p.m. to 11:59 p.m.
+        JZRE076:     Taxicab, motorcycle, bicycle, or other means
+        JZRE077:     Taxicab, motorcycle, bicycle, or other means: 12:00 a.m. to 4:59 a.m.
+        JZRE078:     Taxicab, motorcycle, bicycle, or other means: 5:00 a.m. to 5:29 a.m.
+        JZRE079:     Taxicab, motorcycle, bicycle, or other means: 5:30 a.m. to 5:59 a.m.
+        JZRE080:     Taxicab, motorcycle, bicycle, or other means: 6:00 a.m. to 6:29 a.m.
+        JZRE081:     Taxicab, motorcycle, bicycle, or other means: 6:30 a.m. to 6:59 a.m.
+        JZRE082:     Taxicab, motorcycle, bicycle, or other means: 7:00 a.m. to 7:29 a.m.
+        JZRE083:     Taxicab, motorcycle, bicycle, or other means: 7:30 a.m. to 7:59 a.m.
+        JZRE084:     Taxicab, motorcycle, bicycle, or other means: 8:00 a.m. to 8:29 a.m.
+        JZRE085:     Taxicab, motorcycle, bicycle, or other means: 8:30 a.m. to 8:59 a.m.
+        JZRE086:     Taxicab, motorcycle, bicycle, or other means: 9:00 a.m. to 9:59 a.m.
+        JZRE087:     Taxicab, motorcycle, bicycle, or other means: 10:00 a.m. to 10:59 a.m.
+        JZRE088:     Taxicab, motorcycle, bicycle, or other means: 11:00 a.m. to 11:59 a.m.
+        JZRE089:     Taxicab, motorcycle, bicycle, or other means: 12:00 p.m. to 3:59 p.m.
+        JZRE090:     Taxicab, motorcycle, bicycle, or other means: 4:00 p.m. to 11:59 p.m.
+ 
+    Table 14:    Means of Transportation to Work by Tenure
+    Universe:    Workers 16 years and over in households
+    Source code: B08137
+    NHGIS code:  JZT
+        JZTE001:     Total
+        JZTE002:     Householder lived in owner-occupied housing units
+        JZTE003:     Householder lived in renter-occupied housing units
+        JZTE004:     Car, truck, or van - drove alone
+        JZTE005:     Car, truck, or van - drove alone: Householder lived in owner-occupied housing units
+        JZTE006:     Car, truck, or van - drove alone: Householder lived in renter-occupied housing units
+        JZTE007:     Car, truck, or van - carpooled
+        JZTE008:     Car, truck, or van - carpooled: Householder lived in owner-occupied housing units
+        JZTE009:     Car, truck, or van - carpooled: Householder lived in renter-occupied housing units
+        JZTE010:     Public transportation (excluding taxicab)
+        JZTE011:     Public transportation (excluding taxicab): Householder lived in owner-occupied housing units
+        JZTE012:     Public transportation (excluding taxicab): Householder lived in renter-occupied housing units
+        JZTE013:     Walked
+        JZTE014:     Walked: Householder lived in owner-occupied housing units
+        JZTE015:     Walked: Householder lived in renter-occupied housing units
+        JZTE016:     Taxicab, motorcycle, bicycle, or other means
+        JZTE017:     Taxicab, motorcycle, bicycle, or other means: Householder lived in owner-occupied housing units
+        JZTE018:     Taxicab, motorcycle, bicycle, or other means: Householder lived in renter-occupied housing units
+        JZTE019:     Worked at home
+        JZTE020:     Worked at home: Householder lived in owner-occupied housing units
+        JZTE021:     Worked at home: Householder lived in renter-occupied housing units
+ 
+    Table 15:    Means of Transportation to Work by Vehicles Available
+    Universe:    Workers 16 years and over in households
+    Source code: B08141
+    NHGIS code:  JZU
+        JZUE001:     Total
+        JZUE002:     No vehicle available
+        JZUE003:     1 vehicle available
+        JZUE004:     2 vehicles available
+        JZUE005:     3 or more vehicles available
+        JZUE006:     Car, truck, or van - drove alone
+        JZUE007:     Car, truck, or van - drove alone: No vehicle available
+        JZUE008:     Car, truck, or van - drove alone: 1 vehicle available
+        JZUE009:     Car, truck, or van - drove alone: 2 vehicles available
+        JZUE010:     Car, truck, or van - drove alone: 3 or more vehicles available
+        JZUE011:     Car, truck, or van - carpooled
+        JZUE012:     Car, truck, or van - carpooled: No vehicle available
+        JZUE013:     Car, truck, or van - carpooled: 1 vehicle available
+        JZUE014:     Car, truck, or van - carpooled: 2 vehicles available
+        JZUE015:     Car, truck, or van - carpooled: 3 or more vehicles available
+        JZUE016:     Public transportation (excluding taxicab)
+        JZUE017:     Public transportation (excluding taxicab): No vehicle available
+        JZUE018:     Public transportation (excluding taxicab): 1 vehicle available
+        JZUE019:     Public transportation (excluding taxicab): 2 vehicles available
+        JZUE020:     Public transportation (excluding taxicab): 3 or more vehicles available
+        JZUE021:     Walked
+        JZUE022:     Walked: No vehicle available
+        JZUE023:     Walked: 1 vehicle available
+        JZUE024:     Walked: 2 vehicles available
+        JZUE025:     Walked: 3 or more vehicles available
+        JZUE026:     Taxicab, motorcycle, bicycle, or other means
+        JZUE027:     Taxicab, motorcycle, bicycle, or other means: No vehicle available
+        JZUE028:     Taxicab, motorcycle, bicycle, or other means: 1 vehicle available
+        JZUE029:     Taxicab, motorcycle, bicycle, or other means: 2 vehicles available
+        JZUE030:     Taxicab, motorcycle, bicycle, or other means: 3 or more vehicles available
+        JZUE031:     Worked at home
+        JZUE032:     Worked at home: No vehicle available
+        JZUE033:     Worked at home: 1 vehicle available
+        JZUE034:     Worked at home: 2 vehicles available
+        JZUE035:     Worked at home: 3 or more vehicles available
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Sex of Workers by Means of Transportation to Work
+    Universe:    Workers 16 years and over
+    Source code: B08006
+    NHGIS code:  JY0
+        JY0M001:     Total
+        JY0M002:     Car, truck, or van
+        JY0M003:     Car, truck, or van: Drove alone
+        JY0M004:     Car, truck, or van: Carpooled
+        JY0M005:     Car, truck, or van: Carpooled: In 2-person carpool
+        JY0M006:     Car, truck, or van: Carpooled: In 3-person carpool
+        JY0M007:     Car, truck, or van: Carpooled: In 4-or-more-person carpool
+        JY0M008:     Public transportation (excluding taxicab)
+        JY0M009:     Public transportation (excluding taxicab): Bus or trolley bus
+        JY0M010:     Public transportation (excluding taxicab): Streetcar or trolley car (carro publico in Puerto Rico)
+        JY0M011:     Public transportation (excluding taxicab): Subway or elevated
+        JY0M012:     Public transportation (excluding taxicab): Railroad
+        JY0M013:     Public transportation (excluding taxicab): Ferryboat
+        JY0M014:     Bicycle
+        JY0M015:     Walked
+        JY0M016:     Taxicab, motorcycle, or other means
+        JY0M017:     Worked at home
+        JY0M018:     Male
+        JY0M019:     Male: Car, truck, or van
+        JY0M020:     Male: Car, truck, or van: Drove alone
+        JY0M021:     Male: Car, truck, or van: Carpooled
+        JY0M022:     Male: Car, truck, or van: Carpooled: In 2-person carpool
+        JY0M023:     Male: Car, truck, or van: Carpooled: In 3-person carpool
+        JY0M024:     Male: Car, truck, or van: Carpooled: In 4-or-more-person carpool
+        JY0M025:     Male: Public transportation (excluding taxicab)
+        JY0M026:     Male: Public transportation (excluding taxicab): Bus or trolley bus
+        JY0M027:     Male: Public transportation (excluding taxicab): Streetcar or trolley car (carro publico in Puerto Rico)
+        JY0M028:     Male: Public transportation (excluding taxicab): Subway or elevated
+        JY0M029:     Male: Public transportation (excluding taxicab): Railroad
+        JY0M030:     Male: Public transportation (excluding taxicab): Ferryboat
+        JY0M031:     Male: Bicycle
+        JY0M032:     Male: Walked
+        JY0M033:     Male: Taxicab, motorcycle, or other means
+        JY0M034:     Male: Worked at home
+        JY0M035:     Female
+        JY0M036:     Female: Car, truck, or van
+        JY0M037:     Female: Car, truck, or van: Drove alone
+        JY0M038:     Female: Car, truck, or van: Carpooled
+        JY0M039:     Female: Car, truck, or van: Carpooled: In 2-person carpool
+        JY0M040:     Female: Car, truck, or van: Carpooled: In 3-person carpool
+        JY0M041:     Female: Car, truck, or van: Carpooled: In 4-or-more-person carpool
+        JY0M042:     Female: Public transportation (excluding taxicab)
+        JY0M043:     Female: Public transportation (excluding taxicab): Bus or trolley bus
+        JY0M044:     Female: Public transportation (excluding taxicab): Streetcar or trolley car (carro publico in Puerto Rico)
+        JY0M045:     Female: Public transportation (excluding taxicab): Subway or elevated
+        JY0M046:     Female: Public transportation (excluding taxicab): Railroad
+        JY0M047:     Female: Public transportation (excluding taxicab): Ferryboat
+        JY0M048:     Female: Bicycle
+        JY0M049:     Female: Walked
+        JY0M050:     Female: Taxicab, motorcycle, or other means
+        JY0M051:     Female: Worked at home
+ 
+    Table 2:     Means of Transportation to Work by Age
+    Universe:    Workers 16 years and over
+    Source code: B08101
+    NHGIS code:  JY6
+        JY6M001:     Total
+        JY6M002:     16 to 19 years
+        JY6M003:     20 to 24 years
+        JY6M004:     25 to 44 years
+        JY6M005:     45 to 54 years
+        JY6M006:     55 to 59 years
+        JY6M007:     60 to 64 years
+        JY6M008:     65 years and over
+        JY6M009:     Car, truck, or van - drove alone
+        JY6M010:     Car, truck, or van - drove alone: 16 to 19 years
+        JY6M011:     Car, truck, or van - drove alone: 20 to 24 years
+        JY6M012:     Car, truck, or van - drove alone: 25 to 44 years
+        JY6M013:     Car, truck, or van - drove alone: 45 to 54 years
+        JY6M014:     Car, truck, or van - drove alone: 55 to 59 years
+        JY6M015:     Car, truck, or van - drove alone: 60 to 64 years
+        JY6M016:     Car, truck, or van - drove alone: 65 years and over
+        JY6M017:     Car, truck, or van - carpooled
+        JY6M018:     Car, truck, or van - carpooled: 16 to 19 years
+        JY6M019:     Car, truck, or van - carpooled: 20 to 24 years
+        JY6M020:     Car, truck, or van - carpooled: 25 to 44 years
+        JY6M021:     Car, truck, or van - carpooled: 45 to 54 years
+        JY6M022:     Car, truck, or van - carpooled: 55 to 59 years
+        JY6M023:     Car, truck, or van - carpooled: 60 to 64 years
+        JY6M024:     Car, truck, or van - carpooled: 65 years and over
+        JY6M025:     Public transportation (excluding taxicab)
+        JY6M026:     Public transportation (excluding taxicab): 16 to 19 years
+        JY6M027:     Public transportation (excluding taxicab): 20 to 24 years
+        JY6M028:     Public transportation (excluding taxicab): 25 to 44 years
+        JY6M029:     Public transportation (excluding taxicab): 45 to 54 years
+        JY6M030:     Public transportation (excluding taxicab): 55 to 59 years
+        JY6M031:     Public transportation (excluding taxicab): 60 to 64 years
+        JY6M032:     Public transportation (excluding taxicab): 65 years and over
+        JY6M033:     Walked
+        JY6M034:     Walked: 16 to 19 years
+        JY6M035:     Walked: 20 to 24 years
+        JY6M036:     Walked: 25 to 44 years
+        JY6M037:     Walked: 45 to 54 years
+        JY6M038:     Walked: 55 to 59 years
+        JY6M039:     Walked: 60 to 64 years
+        JY6M040:     Walked: 65 years and over
+        JY6M041:     Taxicab, motorcycle, bicycle, or other means
+        JY6M042:     Taxicab, motorcycle, bicycle, or other means: 16 to 19 years
+        JY6M043:     Taxicab, motorcycle, bicycle, or other means: 20 to 24 years
+        JY6M044:     Taxicab, motorcycle, bicycle, or other means: 25 to 44 years
+        JY6M045:     Taxicab, motorcycle, bicycle, or other means: 45 to 54 years
+        JY6M046:     Taxicab, motorcycle, bicycle, or other means: 55 to 59 years
+        JY6M047:     Taxicab, motorcycle, bicycle, or other means: 60 to 64 years
+        JY6M048:     Taxicab, motorcycle, bicycle, or other means: 65 years and over
+        JY6M049:     Worked at home
+        JY6M050:     Worked at home: 16 to 19 years
+        JY6M051:     Worked at home: 20 to 24 years
+        JY6M052:     Worked at home: 25 to 44 years
+        JY6M053:     Worked at home: 45 to 54 years
+        JY6M054:     Worked at home: 55 to 59 years
+        JY6M055:     Worked at home: 60 to 64 years
+        JY6M056:     Worked at home: 65 years and over
+ 
+    Table 3:     Median Age by Means of Transportation to Work
+    Universe:    Workers 16 years and over
+    Source code: B08103
+    NHGIS code:  JY7
+        JY7M001:     Median age: Total
+        JY7M002:     Median age: Car, truck, or van - drove alone
+        JY7M003:     Median age: Car, truck, or van - carpooled
+        JY7M004:     Median age: Public transportation (excluding taxicab)
+        JY7M005:     Median age: Walked
+        JY7M006:     Median age: Taxicab, motorcycle, bicycle, or other means
+        JY7M007:     Median age: Worked at home
+ 
+    Table 4:     Means of Transportation to Work by Citizenship Status
+    Universe:    Workers 16 years and over
+    Source code: B08111
+    NHGIS code:  JZH
+        JZHM001:     Total
+        JZHM002:     Native
+        JZHM003:     Foreign born
+        JZHM004:     Foreign born: Naturalized U.S. citizen
+        JZHM005:     Foreign born: Not a U.S. citizen
+        JZHM006:     Car, truck, or van - drove alone
+        JZHM007:     Car, truck, or van - drove alone: Native
+        JZHM008:     Car, truck, or van - drove alone: Foreign born
+        JZHM009:     Car, truck, or van - drove alone: Foreign born: Naturalized U.S. citizen
+        JZHM010:     Car, truck, or van - drove alone: Foreign born: Not a U.S. citizen
+        JZHM011:     Car, truck, or van - carpooled
+        JZHM012:     Car, truck, or van - carpooled: Native
+        JZHM013:     Car, truck, or van - carpooled: Foreign born
+        JZHM014:     Car, truck, or van - carpooled: Foreign born: Naturalized U.S. citizen
+        JZHM015:     Car, truck, or van - carpooled: Foreign born: Not a U.S. citizen
+        JZHM016:     Public transportation (excluding taxicab)
+        JZHM017:     Public transportation (excluding taxicab): Native
+        JZHM018:     Public transportation (excluding taxicab): Foreign born
+        JZHM019:     Public transportation (excluding taxicab): Foreign born: Naturalized U.S. citizen
+        JZHM020:     Public transportation (excluding taxicab): Foreign born: Not a U.S. citizen
+        JZHM021:     Walked
+        JZHM022:     Walked: Native
+        JZHM023:     Walked: Foreign born
+        JZHM024:     Walked: Foreign born: Naturalized U.S. citizen
+        JZHM025:     Walked: Foreign born: Not a U.S. citizen
+        JZHM026:     Taxicab, motorcycle, bicycle, or other means
+        JZHM027:     Taxicab, motorcycle, bicycle, or other means: Native
+        JZHM028:     Taxicab, motorcycle, bicycle, or other means: Foreign born
+        JZHM029:     Taxicab, motorcycle, bicycle, or other means: Foreign born: Naturalized U.S. citizen
+        JZHM030:     Taxicab, motorcycle, bicycle, or other means: Foreign born: Not a U.S. citizen
+        JZHM031:     Worked at home
+        JZHM032:     Worked at home: Native
+        JZHM033:     Worked at home: Foreign born
+        JZHM034:     Worked at home: Foreign born: Naturalized U.S. citizen
+        JZHM035:     Worked at home: Foreign born: Not a U.S. citizen
+ 
+    Table 5:     Means of Transportation to Work by Language Spoken at Home and Ability to Speak English
+    Universe:    Workers 16 years and over
+    Source code: B08113
+    NHGIS code:  JZI
+        JZIM001:     Total
+        JZIM002:     Speak only English
+        JZIM003:     Speak Spanish
+        JZIM004:     Speak Spanish: Speak English 'very well'
+        JZIM005:     Speak Spanish: Speak English less than 'very well'
+        JZIM006:     Speak other languages
+        JZIM007:     Speak other languages: Speak English 'very well'
+        JZIM008:     Speak other languages: Speak English less than 'very well'
+        JZIM009:     Car, truck, or van - drove alone
+        JZIM010:     Car, truck, or van - drove alone: Speak only English
+        JZIM011:     Car, truck, or van - drove alone: Speak Spanish
+        JZIM012:     Car, truck, or van - drove alone: Speak Spanish: Speak English 'very well'
+        JZIM013:     Car, truck, or van - drove alone: Speak Spanish: Speak English less than 'very well'
+        JZIM014:     Car, truck, or van - drove alone: Speak other languages
+        JZIM015:     Car, truck, or van - drove alone: Speak other languages: Speak English 'very well'
+        JZIM016:     Car, truck, or van - drove alone: Speak other languages: Speak English less than 'very well'
+        JZIM017:     Car, truck, or van - carpooled
+        JZIM018:     Car, truck, or van - carpooled: Speak only English
+        JZIM019:     Car, truck, or van - carpooled: Speak Spanish
+        JZIM020:     Car, truck, or van - carpooled: Speak Spanish: Speak English 'very well'
+        JZIM021:     Car, truck, or van - carpooled: Speak Spanish: Speak English less than 'very well'
+        JZIM022:     Car, truck, or van - carpooled: Speak other languages
+        JZIM023:     Car, truck, or van - carpooled: Speak other languages: Speak English 'very well'
+        JZIM024:     Car, truck, or van - carpooled: Speak other languages: Speak English less than 'very well'
+        JZIM025:     Public transportation (excluding taxicab)
+        JZIM026:     Public transportation (excluding taxicab): Speak only English
+        JZIM027:     Public transportation (excluding taxicab): Speak Spanish
+        JZIM028:     Public transportation (excluding taxicab): Speak Spanish: Speak English 'very well'
+        JZIM029:     Public transportation (excluding taxicab): Speak Spanish: Speak English less than 'very well'
+        JZIM030:     Public transportation (excluding taxicab): Speak other languages
+        JZIM031:     Public transportation (excluding taxicab): Speak other languages: Speak English 'very well'
+        JZIM032:     Public transportation (excluding taxicab): Speak other languages: Speak English less than 'very well'
+        JZIM033:     Walked
+        JZIM034:     Walked: Speak only English
+        JZIM035:     Walked: Speak Spanish
+        JZIM036:     Walked: Speak Spanish: Speak English 'very well'
+        JZIM037:     Walked: Speak Spanish: Speak English less than 'very well'
+        JZIM038:     Walked: Speak other languages
+        JZIM039:     Walked: Speak other languages: Speak English 'very well'
+        JZIM040:     Walked: Speak other languages: Speak English less than 'very well'
+        JZIM041:     Taxicab, motorcycle, bicycle, or other means
+        JZIM042:     Taxicab, motorcycle, bicycle, or other means: Speak only English
+        JZIM043:     Taxicab, motorcycle, bicycle, or other means: Speak Spanish
+        JZIM044:     Taxicab, motorcycle, bicycle, or other means: Speak Spanish: Speak English 'very well'
+        JZIM045:     Taxicab, motorcycle, bicycle, or other means: Speak Spanish: Speak English less than 'very well'
+        JZIM046:     Taxicab, motorcycle, bicycle, or other means: Speak other languages
+        JZIM047:     Taxicab, motorcycle, bicycle, or other means: Speak other languages: Speak English 'very well'
+        JZIM048:     Taxicab, motorcycle, bicycle, or other means: Speak other languages: Speak English less than 'very well'
+        JZIM049:     Worked at home
+        JZIM050:     Worked at home: Speak only English
+        JZIM051:     Worked at home: Speak Spanish
+        JZIM052:     Worked at home: Speak Spanish: Speak English 'very well'
+        JZIM053:     Worked at home: Speak Spanish: Speak English less than 'very well'
+        JZIM054:     Worked at home: Speak other languages
+        JZIM055:     Worked at home: Speak other languages: Speak English 'very well'
+        JZIM056:     Worked at home: Speak other languages: Speak English less than 'very well'
+ 
+    Table 6:     Means of Transportation to Work by Workers' Earnings in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+    Universe:    Workers 16 years and over with earnings
+    Source code: B08119
+    NHGIS code:  JZJ
+        JZJM001:     Total
+        JZJM002:     $1 to $9,999 or loss
+        JZJM003:     $10,000 to $14,999
+        JZJM004:     $15,000 to $24,999
+        JZJM005:     $25,000 to $34,999
+        JZJM006:     $35,000 to $49,999
+        JZJM007:     $50,000 to $64,999
+        JZJM008:     $65,000 to $74,999
+        JZJM009:     $75,000 or more
+        JZJM010:     Car, truck, or van - drove alone
+        JZJM011:     Car, truck, or van - drove alone: $1 to $9,999 or loss
+        JZJM012:     Car, truck, or van - drove alone: $10,000 to $14,999
+        JZJM013:     Car, truck, or van - drove alone: $15,000 to $24,999
+        JZJM014:     Car, truck, or van - drove alone: $25,000 to $34,999
+        JZJM015:     Car, truck, or van - drove alone: $35,000 to $49,999
+        JZJM016:     Car, truck, or van - drove alone: $50,000 to $64,999
+        JZJM017:     Car, truck, or van - drove alone: $65,000 to $74,999
+        JZJM018:     Car, truck, or van - drove alone: $75,000 or more
+        JZJM019:     Car, truck, or van - carpooled
+        JZJM020:     Car, truck, or van - carpooled: $1 to $9,999 or loss
+        JZJM021:     Car, truck, or van - carpooled: $10,000 to $14,999
+        JZJM022:     Car, truck, or van - carpooled: $15,000 to $24,999
+        JZJM023:     Car, truck, or van - carpooled: $25,000 to $34,999
+        JZJM024:     Car, truck, or van - carpooled: $35,000 to $49,999
+        JZJM025:     Car, truck, or van - carpooled: $50,000 to $64,999
+        JZJM026:     Car, truck, or van - carpooled: $65,000 to $74,999
+        JZJM027:     Car, truck, or van - carpooled: $75,000 or more
+        JZJM028:     Public transportation (excluding taxicab)
+        JZJM029:     Public transportation (excluding taxicab): $1 to $9,999 or loss
+        JZJM030:     Public transportation (excluding taxicab): $10,000 to $14,999
+        JZJM031:     Public transportation (excluding taxicab): $15,000 to $24,999
+        JZJM032:     Public transportation (excluding taxicab): $25,000 to $34,999
+        JZJM033:     Public transportation (excluding taxicab): $35,000 to $49,999
+        JZJM034:     Public transportation (excluding taxicab): $50,000 to $64,999
+        JZJM035:     Public transportation (excluding taxicab): $65,000 to $74,999
+        JZJM036:     Public transportation (excluding taxicab): $75,000 or more
+        JZJM037:     Walked
+        JZJM038:     Walked: $1 to $9,999 or loss
+        JZJM039:     Walked: $10,000 to $14,999
+        JZJM040:     Walked: $15,000 to $24,999
+        JZJM041:     Walked: $25,000 to $34,999
+        JZJM042:     Walked: $35,000 to $49,999
+        JZJM043:     Walked: $50,000 to $64,999
+        JZJM044:     Walked: $65,000 to $74,999
+        JZJM045:     Walked: $75,000 or more
+        JZJM046:     Taxicab, motorcycle, bicycle, or other means
+        JZJM047:     Taxicab, motorcycle, bicycle, or other means: $1 to $9,999 or loss
+        JZJM048:     Taxicab, motorcycle, bicycle, or other means: $10,000 to $14,999
+        JZJM049:     Taxicab, motorcycle, bicycle, or other means: $15,000 to $24,999
+        JZJM050:     Taxicab, motorcycle, bicycle, or other means: $25,000 to $34,999
+        JZJM051:     Taxicab, motorcycle, bicycle, or other means: $35,000 to $49,999
+        JZJM052:     Taxicab, motorcycle, bicycle, or other means: $50,000 to $64,999
+        JZJM053:     Taxicab, motorcycle, bicycle, or other means: $65,000 to $74,999
+        JZJM054:     Taxicab, motorcycle, bicycle, or other means: $75,000 or more
+        JZJM055:     Worked at home
+        JZJM056:     Worked at home: $1 to $9,999 or loss
+        JZJM057:     Worked at home: $10,000 to $14,999
+        JZJM058:     Worked at home: $15,000 to $24,999
+        JZJM059:     Worked at home: $25,000 to $34,999
+        JZJM060:     Worked at home: $35,000 to $49,999
+        JZJM061:     Worked at home: $50,000 to $64,999
+        JZJM062:     Worked at home: $65,000 to $74,999
+        JZJM063:     Worked at home: $75,000 or more
+ 
+    Table 7:     Median Earnings in the Past 12 Months (in 2010 Inflation-Adjusted Dollars) by Means of Transportation to Work
+    Universe:    Workers 16 years and over with earnings
+    Source code: B08121
+    NHGIS code:  JZK
+        JZKM001:     Median earnings in the past 12 months: Total
+        JZKM002:     Median earnings in the past 12 months: Car, truck, or van - drove alone
+        JZKM003:     Median earnings in the past 12 months: Car, truck, or van - carpooled
+        JZKM004:     Median earnings in the past 12 months: Public transportation (excluding taxicab)
+        JZKM005:     Median earnings in the past 12 months: Walked
+        JZKM006:     Median earnings in the past 12 months: Taxicab, motorcycle, bicycle, or other means
+        JZKM007:     Median earnings in the past 12 months: Worked at home
+ 
+    Table 8:     Means of Transportation to Work by Poverty Status in the Past 12 Months
+    Universe:    Workers 16 years and over for whom poverty status is determined
+    Source code: B08122
+    NHGIS code:  JZL
+        JZLM001:     Total
+        JZLM002:     Below 100 percent of the poverty level
+        JZLM003:     100 to 149 percent of the poverty level
+        JZLM004:     At or above 150 percent of the poverty level
+        JZLM005:     Car, truck, or van - drove alone
+        JZLM006:     Car, truck, or van - drove alone: Below 100 percent of the poverty level
+        JZLM007:     Car, truck, or van - drove alone: 100 to 149 percent of the poverty level
+        JZLM008:     Car, truck, or van - drove alone: At or above 150 percent of the poverty level
+        JZLM009:     Car, truck, or van - carpooled
+        JZLM010:     Car, truck, or van - carpooled: Below 100 percent of the poverty level
+        JZLM011:     Car, truck, or van - carpooled: 100 to 149 percent of the poverty level
+        JZLM012:     Car, truck, or van - carpooled: At or above 150 percent of the poverty level
+        JZLM013:     Public transportation (excluding taxicab)
+        JZLM014:     Public transportation (excluding taxicab): Below 100 percent of the poverty level
+        JZLM015:     Public transportation (excluding taxicab): 100 to 149 percent of the poverty level
+        JZLM016:     Public transportation (excluding taxicab): At or above 150 percent of the poverty level
+        JZLM017:     Walked
+        JZLM018:     Walked: Below 100 percent of the poverty level
+        JZLM019:     Walked: 100 to 149 percent of the poverty level
+        JZLM020:     Walked: At or above 150 percent of the poverty level
+        JZLM021:     Taxicab, motorcycle, bicycle, or other means
+        JZLM022:     Taxicab, motorcycle, bicycle, or other means: Below 100 percent of the poverty level
+        JZLM023:     Taxicab, motorcycle, bicycle, or other means: 100 to 149 percent of the poverty level
+        JZLM024:     Taxicab, motorcycle, bicycle, or other means: At or above 150 percent of the poverty level
+        JZLM025:     Worked at home
+        JZLM026:     Worked at home: Below 100 percent of the poverty level
+        JZLM027:     Worked at home: 100 to 149 percent of the poverty level
+        JZLM028:     Worked at home: At or above 150 percent of the poverty level
+ 
+    Table 9:     Means of Transportation to Work by Occupation
+    Universe:    Workers 16 years and over
+    Source code: B08124
+    NHGIS code:  JZM
+        JZMM001:     Total
+        JZMM002:     Management, business, science, and arts occupations
+        JZMM003:     Service occupations
+        JZMM004:     Sales and office occupations
+        JZMM005:     Natural resources, construction, and maintenance occupations
+        JZMM006:     Production, transportation, and material moving occupations
+        JZMM007:     Military specific occupations
+        JZMM008:     Car, truck, or van - drove alone
+        JZMM009:     Car, truck, or van - drove alone: Management, business, science, and arts occupations
+        JZMM010:     Car, truck, or van - drove alone: Service occupations
+        JZMM011:     Car, truck, or van - drove alone: Sales and office occupations
+        JZMM012:     Car, truck, or van - drove alone: Natural resources, construction, and maintenance occupations
+        JZMM013:     Car, truck, or van - drove alone: Production, transportation, and material moving occupations
+        JZMM014:     Car, truck, or van - drove alone: Military specific occupations
+        JZMM015:     Car, truck, or van - carpooled
+        JZMM016:     Car, truck, or van - carpooled: Management, business, science, and arts occupations
+        JZMM017:     Car, truck, or van - carpooled: Service occupations
+        JZMM018:     Car, truck, or van - carpooled: Sales and office occupations
+        JZMM019:     Car, truck, or van - carpooled: Natural resources, construction, and maintenance occupations
+        JZMM020:     Car, truck, or van - carpooled: Production, transportation, and material moving occupations
+        JZMM021:     Car, truck, or van - carpooled: Military specific occupations
+        JZMM022:     Public transportation (excluding taxicab)
+        JZMM023:     Public transportation (excluding taxicab): Management, business, science, and arts occupations
+        JZMM024:     Public transportation (excluding taxicab): Service occupations
+        JZMM025:     Public transportation (excluding taxicab): Sales and office occupations
+        JZMM026:     Public transportation (excluding taxicab): Natural resources, construction, and maintenance occupations
+        JZMM027:     Public transportation (excluding taxicab): Production, transportation, and material moving occupations
+        JZMM028:     Public transportation (excluding taxicab): Military specific occupations
+        JZMM029:     Walked
+        JZMM030:     Walked: Management, business, science, and arts occupations
+        JZMM031:     Walked: Service occupations
+        JZMM032:     Walked: Sales and office occupations
+        JZMM033:     Walked: Natural resources, construction, and maintenance occupations
+        JZMM034:     Walked: Production, transportation, and material moving occupations
+        JZMM035:     Walked: Military specific occupations
+        JZMM036:     Taxicab, motorcycle, bicycle, or other means
+        JZMM037:     Taxicab, motorcycle, bicycle, or other means: Management, business, science, and arts occupations
+        JZMM038:     Taxicab, motorcycle, bicycle, or other means: Service occupations
+        JZMM039:     Taxicab, motorcycle, bicycle, or other means: Sales and office occupations
+        JZMM040:     Taxicab, motorcycle, bicycle, or other means: Natural resources, construction, and maintenance occupations
+        JZMM041:     Taxicab, motorcycle, bicycle, or other means: Production, transportation, and material moving occupations
+        JZMM042:     Taxicab, motorcycle, bicycle, or other means: Military specific occupations
+        JZMM043:     Worked at home
+        JZMM044:     Worked at home: Management, business, science, and arts occupations
+        JZMM045:     Worked at home: Service occupations
+        JZMM046:     Worked at home: Sales and office occupations
+        JZMM047:     Worked at home: Natural resources, construction, and maintenance occupations
+        JZMM048:     Worked at home: Production, transportation, and material moving occupations
+        JZMM049:     Worked at home: Military specific occupations
+ 
+    Table 10:    Means of Transportation to Work by Industry
+    Universe:    Workers 16 years and over
+    Source code: B08126
+    NHGIS code:  JZN
+        JZNM001:     Total
+        JZNM002:     Agriculture, forestry, fishing and hunting, and mining
+        JZNM003:     Construction
+        JZNM004:     Manufacturing
+        JZNM005:     Wholesale trade
+        JZNM006:     Retail trade
+        JZNM007:     Transportation and warehousing, and utilities
+        JZNM008:     Information
+        JZNM009:     Finance and insurance, and real estate and rental and leasing
+        JZNM010:     Professional, scientific, and management, and administrative and waste management services
+        JZNM011:     Educational services, and health care and social assistance
+        JZNM012:     Arts, entertainment, and recreation, and accommodation and food services
+        JZNM013:     Other services (except public administration)
+        JZNM014:     Public administration
+        JZNM015:     Armed forces
+        JZNM016:     Car, truck, or van - drove alone
+        JZNM017:     Car, truck, or van - drove alone: Agriculture, forestry, fishing and hunting, and mining
+        JZNM018:     Car, truck, or van - drove alone: Construction
+        JZNM019:     Car, truck, or van - drove alone: Manufacturing
+        JZNM020:     Car, truck, or van - drove alone: Wholesale trade
+        JZNM021:     Car, truck, or van - drove alone: Retail trade
+        JZNM022:     Car, truck, or van - drove alone: Transportation and warehousing, and utilities
+        JZNM023:     Car, truck, or van - drove alone: Information
+        JZNM024:     Car, truck, or van - drove alone: Finance and insurance, and real estate and rental and leasing
+        JZNM025:     Car, truck, or van - drove alone: Professional, scientific, and management, and administrative and waste management services
+        JZNM026:     Car, truck, or van - drove alone: Educational services, and health care and social assistance
+        JZNM027:     Car, truck, or van - drove alone: Arts, entertainment, and recreation, and accommodation and food services
+        JZNM028:     Car, truck, or van - drove alone: Other services (except public administration)
+        JZNM029:     Car, truck, or van - drove alone: Public administration
+        JZNM030:     Car, truck, or van - drove alone: Armed forces
+        JZNM031:     Car, truck, or van - carpooled
+        JZNM032:     Car, truck, or van - carpooled: Agriculture, forestry, fishing and hunting, and mining
+        JZNM033:     Car, truck, or van - carpooled: Construction
+        JZNM034:     Car, truck, or van - carpooled: Manufacturing
+        JZNM035:     Car, truck, or van - carpooled: Wholesale trade
+        JZNM036:     Car, truck, or van - carpooled: Retail trade
+        JZNM037:     Car, truck, or van - carpooled: Transportation and warehousing, and utilities
+        JZNM038:     Car, truck, or van - carpooled: Information
+        JZNM039:     Car, truck, or van - carpooled: Finance and insurance, and real estate and rental and leasing
+        JZNM040:     Car, truck, or van - carpooled: Professional, scientific, and management, and administrative and waste management services
+        JZNM041:     Car, truck, or van - carpooled: Educational services, and health care and social assistance
+        JZNM042:     Car, truck, or van - carpooled: Arts, entertainment, and recreation, and accommodation and food services
+        JZNM043:     Car, truck, or van - carpooled: Other services (except public administration)
+        JZNM044:     Car, truck, or van - carpooled: Public administration
+        JZNM045:     Car, truck, or van - carpooled: Armed forces
+        JZNM046:     Public transportation (excluding taxicab)
+        JZNM047:     Public transportation (excluding taxicab): Agriculture, forestry, fishing and hunting, and mining
+        JZNM048:     Public transportation (excluding taxicab): Construction
+        JZNM049:     Public transportation (excluding taxicab): Manufacturing
+        JZNM050:     Public transportation (excluding taxicab): Wholesale trade
+        JZNM051:     Public transportation (excluding taxicab): Retail trade
+        JZNM052:     Public transportation (excluding taxicab): Transportation and warehousing, and utilities
+        JZNM053:     Public transportation (excluding taxicab): Information
+        JZNM054:     Public transportation (excluding taxicab): Finance and insurance, and real estate and rental and leasing
+        JZNM055:     Public transportation (excluding taxicab): Professional, scientific, and management, and administrative and waste management services
+        JZNM056:     Public transportation (excluding taxicab): Educational services, and health care and social assistance
+        JZNM057:     Public transportation (excluding taxicab): Arts, entertainment, and recreation, and accommodation and food services
+        JZNM058:     Public transportation (excluding taxicab): Other services (except public administration)
+        JZNM059:     Public transportation (excluding taxicab): Public administration
+        JZNM060:     Public transportation (excluding taxicab): Armed forces
+        JZNM061:     Walked
+        JZNM062:     Walked: Agriculture, forestry, fishing and hunting, and mining
+        JZNM063:     Walked: Construction
+        JZNM064:     Walked: Manufacturing
+        JZNM065:     Walked: Wholesale trade
+        JZNM066:     Walked: Retail trade
+        JZNM067:     Walked: Transportation and warehousing, and utilities
+        JZNM068:     Walked: Information
+        JZNM069:     Walked: Finance and insurance, and real estate and rental and leasing
+        JZNM070:     Walked: Professional, scientific, and management, and administrative and waste management services
+        JZNM071:     Walked: Educational services, and health care and social assistance
+        JZNM072:     Walked: Arts, entertainment, and recreation, and accommodation and food services
+        JZNM073:     Walked: Other services (except public administration)
+        JZNM074:     Walked: Public administration
+        JZNM075:     Walked: Armed forces
+        JZNM076:     Taxicab, motorcycle, bicycle, or other means
+        JZNM077:     Taxicab, motorcycle, bicycle, or other means: Agriculture, forestry, fishing and hunting, and mining
+        JZNM078:     Taxicab, motorcycle, bicycle, or other means: Construction
+        JZNM079:     Taxicab, motorcycle, bicycle, or other means: Manufacturing
+        JZNM080:     Taxicab, motorcycle, bicycle, or other means: Wholesale trade
+        JZNM081:     Taxicab, motorcycle, bicycle, or other means: Retail trade
+        JZNM082:     Taxicab, motorcycle, bicycle, or other means: Transportation and warehousing, and utilities
+        JZNM083:     Taxicab, motorcycle, bicycle, or other means: Information
+        JZNM084:     Taxicab, motorcycle, bicycle, or other means: Finance and insurance, and real estate and rental and leasing
+        JZNM085:     Taxicab, motorcycle, bicycle, or other means: Professional, scientific, and management, and administrative and waste management services
+        JZNM086:     Taxicab, motorcycle, bicycle, or other means: Educational services, and health care and social assistance
+        JZNM087:     Taxicab, motorcycle, bicycle, or other means: Arts, entertainment, and recreation, and accommodation and food services
+        JZNM088:     Taxicab, motorcycle, bicycle, or other means: Other services (except public administration)
+        JZNM089:     Taxicab, motorcycle, bicycle, or other means: Public administration
+        JZNM090:     Taxicab, motorcycle, bicycle, or other means: Armed forces
+        JZNM091:     Worked at home
+        JZNM092:     Worked at home: Agriculture, forestry, fishing and hunting, and mining
+        JZNM093:     Worked at home: Construction
+        JZNM094:     Worked at home: Manufacturing
+        JZNM095:     Worked at home: Wholesale trade
+        JZNM096:     Worked at home: Retail trade
+        JZNM097:     Worked at home: Transportation and warehousing, and utilities
+        JZNM098:     Worked at home: Information
+        JZNM099:     Worked at home: Finance and insurance, and real estate and rental and leasing
+        JZNM100:     Worked at home: Professional, scientific, and management, and administrative and waste management services
+        JZNM101:     Worked at home: Educational services, and health care and social assistance
+        JZNM102:     Worked at home: Arts, entertainment, and recreation, and accommodation and food services
+        JZNM103:     Worked at home: Other services (except public administration)
+        JZNM104:     Worked at home: Public administration
+        JZNM105:     Worked at home: Armed forces
+ 
+    Table 11:    Means of Transportation to Work by Class of Worker
+    Universe:    Workers 16 years and over
+    Source code: B08128
+    NHGIS code:  JZO
+        JZOM001:     Total
+        JZOM002:     Private for-profit wage and salary workers
+        JZOM003:     Private for-profit wage and salary workers: Employee of private company workers
+        JZOM004:     Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOM005:     Private not-for-profit wage and salary workers
+        JZOM006:     Local government workers
+        JZOM007:     State government workers
+        JZOM008:     Federal government workers
+        JZOM009:     Self-employed in own not incorporated business workers
+        JZOM010:     Unpaid family workers
+        JZOM011:     Car, truck, or van - drove alone
+        JZOM012:     Car, truck, or van - drove alone: Private for-profit wage and salary workers
+        JZOM013:     Car, truck, or van - drove alone: Private for-profit wage and salary workers: Employee of private company workers
+        JZOM014:     Car, truck, or van - drove alone: Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOM015:     Car, truck, or van - drove alone: Private not-for-profit wage and salary workers
+        JZOM016:     Car, truck, or van - drove alone: Local government workers
+        JZOM017:     Car, truck, or van - drove alone: State government workers
+        JZOM018:     Car, truck, or van - drove alone: Federal government workers
+        JZOM019:     Car, truck, or van - drove alone: Self-employed in own not incorporated business workers
+        JZOM020:     Car, truck, or van - drove alone: Unpaid family workers
+        JZOM021:     Car, truck, or van - carpooled
+        JZOM022:     Car, truck, or van - carpooled: Private for-profit wage and salary workers
+        JZOM023:     Car, truck, or van - carpooled: Private for-profit wage and salary workers: Employee of private company workers
+        JZOM024:     Car, truck, or van - carpooled: Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOM025:     Car, truck, or van - carpooled: Private not-for-profit wage and salary workers
+        JZOM026:     Car, truck, or van - carpooled: Local government workers
+        JZOM027:     Car, truck, or van - carpooled: State government workers
+        JZOM028:     Car, truck, or van - carpooled: Federal government workers
+        JZOM029:     Car, truck, or van - carpooled: Self-employed in own not incorporated business workers
+        JZOM030:     Car, truck, or van - carpooled: Unpaid family workers
+        JZOM031:     Public transportation (excluding taxicab)
+        JZOM032:     Public transportation (excluding taxicab): Private for-profit wage and salary workers
+        JZOM033:     Public transportation (excluding taxicab): Private for-profit wage and salary workers: Employee of private company workers
+        JZOM034:     Public transportation (excluding taxicab): Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOM035:     Public transportation (excluding taxicab): Private not-for-profit wage and salary workers
+        JZOM036:     Public transportation (excluding taxicab): Local government workers
+        JZOM037:     Public transportation (excluding taxicab): State government workers
+        JZOM038:     Public transportation (excluding taxicab): Federal government workers
+        JZOM039:     Public transportation (excluding taxicab): Self-employed in own not incorporated business workers
+        JZOM040:     Public transportation (excluding taxicab): Unpaid family workers
+        JZOM041:     Walked
+        JZOM042:     Walked: Private for-profit wage and salary workers
+        JZOM043:     Walked: Private for-profit wage and salary workers: Employee of private company workers
+        JZOM044:     Walked: Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOM045:     Walked: Private not-for-profit wage and salary workers
+        JZOM046:     Walked: Local government workers
+        JZOM047:     Walked: State government workers
+        JZOM048:     Walked: Federal government workers
+        JZOM049:     Walked: Self-employed in own not incorporated business workers
+        JZOM050:     Walked: Unpaid family workers
+        JZOM051:     Taxicab, motorcycle, bicycle, or other means
+        JZOM052:     Taxicab, motorcycle, bicycle, or other means: Private for-profit wage and salary workers
+        JZOM053:     Taxicab, motorcycle, bicycle, or other means: Private for-profit wage and salary workers: Employee of private company workers
+        JZOM054:     Taxicab, motorcycle, bicycle, or other means: Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOM055:     Taxicab, motorcycle, bicycle, or other means: Private not-for-profit wage and salary workers
+        JZOM056:     Taxicab, motorcycle, bicycle, or other means: Local government workers
+        JZOM057:     Taxicab, motorcycle, bicycle, or other means: State government workers
+        JZOM058:     Taxicab, motorcycle, bicycle, or other means: Federal government workers
+        JZOM059:     Taxicab, motorcycle, bicycle, or other means: Self-employed in own not incorporated business workers
+        JZOM060:     Taxicab, motorcycle, bicycle, or other means: Unpaid family workers
+        JZOM061:     Worked at home
+        JZOM062:     Worked at home: Private for-profit wage and salary workers
+        JZOM063:     Worked at home: Private for-profit wage and salary workers: Employee of private company workers
+        JZOM064:     Worked at home: Private for-profit wage and salary workers: Self-employed in own incorporated business workers
+        JZOM065:     Worked at home: Private not-for-profit wage and salary workers
+        JZOM066:     Worked at home: Local government workers
+        JZOM067:     Worked at home: State government workers
+        JZOM068:     Worked at home: Federal government workers
+        JZOM069:     Worked at home: Self-employed in own not incorporated business workers
+        JZOM070:     Worked at home: Unpaid family workers
+ 
+    Table 12:    Means of Transportation to Work by Place of Work--State and County Level
+    Universe:    Workers 16 years and over
+    Source code: B08130
+    NHGIS code:  JZP
+        JZPM001:     Total
+        JZPM002:     Worked in state of residence
+        JZPM003:     Worked in state of residence: Worked in county of residence
+        JZPM004:     Worked in state of residence: Worked outside county of residence
+        JZPM005:     Worked outside state of residence
+        JZPM006:     Car, truck, or van - drove alone
+        JZPM007:     Car, truck, or van - drove alone: Worked in state of residence
+        JZPM008:     Car, truck, or van - drove alone: Worked in state of residence: Worked in county of residence
+        JZPM009:     Car, truck, or van - drove alone: Worked in state of residence: Worked outside county of residence
+        JZPM010:     Car, truck, or van - drove alone: Worked outside state of residence
+        JZPM011:     Car, truck, or van - carpooled
+        JZPM012:     Car, truck, or van - carpooled: Worked in state of residence
+        JZPM013:     Car, truck, or van - carpooled: Worked in state of residence: Worked in county of residence
+        JZPM014:     Car, truck, or van - carpooled: Worked in state of residence: Worked outside county of residence
+        JZPM015:     Car, truck, or van - carpooled: Worked outside state of residence
+        JZPM016:     Public transportation (excluding taxicab)
+        JZPM017:     Public transportation (excluding taxicab): Worked in state of residence
+        JZPM018:     Public transportation (excluding taxicab): Worked in state of residence: Worked in county of residence
+        JZPM019:     Public transportation (excluding taxicab): Worked in state of residence: Worked outside county of residence
+        JZPM020:     Public transportation (excluding taxicab): Worked outside state of residence
+        JZPM021:     Walked
+        JZPM022:     Walked: Worked in state of residence
+        JZPM023:     Walked: Worked in state of residence: Worked in county of residence
+        JZPM024:     Walked: Worked in state of residence: Worked outside county of residence
+        JZPM025:     Walked: Worked outside state of residence
+        JZPM026:     Taxicab, motorcycle, bicycle, or other means
+        JZPM027:     Taxicab, motorcycle, bicycle, or other means: Worked in state of residence
+        JZPM028:     Taxicab, motorcycle, bicycle, or other means: Worked in state of residence: Worked in county of residence
+        JZPM029:     Taxicab, motorcycle, bicycle, or other means: Worked in state of residence: Worked outside county of residence
+        JZPM030:     Taxicab, motorcycle, bicycle, or other means: Worked outside state of residence
+        JZPM031:     Worked at home
+ 
+    Table 13:    Means of Transportation to Work by Time Leaving Home to Go to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: B08132
+    NHGIS code:  JZR
+        JZRM001:     Total
+        JZRM002:     12:00 a.m. to 4:59 a.m.
+        JZRM003:     5:00 a.m. to 5:29 a.m.
+        JZRM004:     5:30 a.m. to 5:59 a.m.
+        JZRM005:     6:00 a.m. to 6:29 a.m.
+        JZRM006:     6:30 a.m. to 6:59 a.m.
+        JZRM007:     7:00 a.m. to 7:29 a.m.
+        JZRM008:     7:30 a.m. to 7:59 a.m.
+        JZRM009:     8:00 a.m. to 8:29 a.m.
+        JZRM010:     8:30 a.m. to 8:59 a.m.
+        JZRM011:     9:00 a.m. to 9:59 a.m.
+        JZRM012:     10:00 a.m. to 10:59 a.m.
+        JZRM013:     11:00 a.m. to 11:59 a.m.
+        JZRM014:     12:00 p.m. to 3:59 p.m.
+        JZRM015:     4:00 p.m. to 11:59 p.m.
+        JZRM016:     Car, truck, or van - drove alone
+        JZRM017:     Car, truck, or van - drove alone: 12:00 a.m. to 4:59 a.m.
+        JZRM018:     Car, truck, or van - drove alone: 5:00 a.m. to 5:29 a.m.
+        JZRM019:     Car, truck, or van - drove alone: 5:30 a.m. to 5:59 a.m.
+        JZRM020:     Car, truck, or van - drove alone: 6:00 a.m. to 6:29 a.m.
+        JZRM021:     Car, truck, or van - drove alone: 6:30 a.m. to 6:59 a.m.
+        JZRM022:     Car, truck, or van - drove alone: 7:00 a.m. to 7:29 a.m.
+        JZRM023:     Car, truck, or van - drove alone: 7:30 a.m. to 7:59 a.m.
+        JZRM024:     Car, truck, or van - drove alone: 8:00 a.m. to 8:29 a.m.
+        JZRM025:     Car, truck, or van - drove alone: 8:30 a.m. to 8:59 a.m.
+        JZRM026:     Car, truck, or van - drove alone: 9:00 a.m. to 9:59 a.m.
+        JZRM027:     Car, truck, or van - drove alone: 10:00 a.m. to 10:59 a.m.
+        JZRM028:     Car, truck, or van - drove alone: 11:00 a.m. to 11:59 a.m.
+        JZRM029:     Car, truck, or van - drove alone: 12:00 p.m. to 3:59 p.m.
+        JZRM030:     Car, truck, or van - drove alone: 4:00 p.m. to 11:59 p.m.
+        JZRM031:     Car, truck, or van - carpooled
+        JZRM032:     Car, truck, or van - carpooled: 12:00 a.m. to 4:59 a.m.
+        JZRM033:     Car, truck, or van - carpooled: 5:00 a.m. to 5:29 a.m.
+        JZRM034:     Car, truck, or van - carpooled: 5:30 a.m. to 5:59 a.m.
+        JZRM035:     Car, truck, or van - carpooled: 6:00 a.m. to 6:29 a.m.
+        JZRM036:     Car, truck, or van - carpooled: 6:30 a.m. to 6:59 a.m.
+        JZRM037:     Car, truck, or van - carpooled: 7:00 a.m. to 7:29 a.m.
+        JZRM038:     Car, truck, or van - carpooled: 7:30 a.m. to 7:59 a.m.
+        JZRM039:     Car, truck, or van - carpooled: 8:00 a.m. to 8:29 a.m.
+        JZRM040:     Car, truck, or van - carpooled: 8:30 a.m. to 8:59 a.m.
+        JZRM041:     Car, truck, or van - carpooled: 9:00 a.m. to 9:59 a.m.
+        JZRM042:     Car, truck, or van - carpooled: 10:00 a.m. to 10:59 a.m.
+        JZRM043:     Car, truck, or van - carpooled: 11:00 a.m. to 11:59 a.m.
+        JZRM044:     Car, truck, or van - carpooled: 12:00 p.m. to 3:59 p.m.
+        JZRM045:     Car, truck, or van - carpooled: 4:00 p.m. to 11:59 p.m.
+        JZRM046:     Public transportation (excluding taxicab)
+        JZRM047:     Public transportation (excluding taxicab): 12:00 a.m. to 4:59 a.m.
+        JZRM048:     Public transportation (excluding taxicab): 5:00 a.m. to 5:29 a.m.
+        JZRM049:     Public transportation (excluding taxicab): 5:30 a.m. to 5:59 a.m.
+        JZRM050:     Public transportation (excluding taxicab): 6:00 a.m. to 6:29 a.m.
+        JZRM051:     Public transportation (excluding taxicab): 6:30 a.m. to 6:59 a.m.
+        JZRM052:     Public transportation (excluding taxicab): 7:00 a.m. to 7:29 a.m.
+        JZRM053:     Public transportation (excluding taxicab): 7:30 a.m. to 7:59 a.m.
+        JZRM054:     Public transportation (excluding taxicab): 8:00 a.m. to 8:29 a.m.
+        JZRM055:     Public transportation (excluding taxicab): 8:30 a.m. to 8:59 a.m.
+        JZRM056:     Public transportation (excluding taxicab): 9:00 a.m. to 9:59 a.m.
+        JZRM057:     Public transportation (excluding taxicab): 10:00 a.m. to 10:59 a.m.
+        JZRM058:     Public transportation (excluding taxicab): 11:00 a.m. to 11:59 a.m.
+        JZRM059:     Public transportation (excluding taxicab): 12:00 p.m. to 3:59 p.m.
+        JZRM060:     Public transportation (excluding taxicab): 4:00 p.m. to 11:59 p.m.
+        JZRM061:     Walked
+        JZRM062:     Walked: 12:00 a.m. to 4:59 a.m.
+        JZRM063:     Walked: 5:00 a.m. to 5:29 a.m.
+        JZRM064:     Walked: 5:30 a.m. to 5:59 a.m.
+        JZRM065:     Walked: 6:00 a.m. to 6:29 a.m.
+        JZRM066:     Walked: 6:30 a.m. to 6:59 a.m.
+        JZRM067:     Walked: 7:00 a.m. to 7:29 a.m.
+        JZRM068:     Walked: 7:30 a.m. to 7:59 a.m.
+        JZRM069:     Walked: 8:00 a.m. to 8:29 a.m.
+        JZRM070:     Walked: 8:30 a.m. to 8:59 a.m.
+        JZRM071:     Walked: 9:00 a.m. to 9:59 a.m.
+        JZRM072:     Walked: 10:00 a.m. to 10:59 a.m.
+        JZRM073:     Walked: 11:00 a.m. to 11:59 a.m.
+        JZRM074:     Walked: 12:00 p.m. to 3:59 p.m.
+        JZRM075:     Walked: 4:00 p.m. to 11:59 p.m.
+        JZRM076:     Taxicab, motorcycle, bicycle, or other means
+        JZRM077:     Taxicab, motorcycle, bicycle, or other means: 12:00 a.m. to 4:59 a.m.
+        JZRM078:     Taxicab, motorcycle, bicycle, or other means: 5:00 a.m. to 5:29 a.m.
+        JZRM079:     Taxicab, motorcycle, bicycle, or other means: 5:30 a.m. to 5:59 a.m.
+        JZRM080:     Taxicab, motorcycle, bicycle, or other means: 6:00 a.m. to 6:29 a.m.
+        JZRM081:     Taxicab, motorcycle, bicycle, or other means: 6:30 a.m. to 6:59 a.m.
+        JZRM082:     Taxicab, motorcycle, bicycle, or other means: 7:00 a.m. to 7:29 a.m.
+        JZRM083:     Taxicab, motorcycle, bicycle, or other means: 7:30 a.m. to 7:59 a.m.
+        JZRM084:     Taxicab, motorcycle, bicycle, or other means: 8:00 a.m. to 8:29 a.m.
+        JZRM085:     Taxicab, motorcycle, bicycle, or other means: 8:30 a.m. to 8:59 a.m.
+        JZRM086:     Taxicab, motorcycle, bicycle, or other means: 9:00 a.m. to 9:59 a.m.
+        JZRM087:     Taxicab, motorcycle, bicycle, or other means: 10:00 a.m. to 10:59 a.m.
+        JZRM088:     Taxicab, motorcycle, bicycle, or other means: 11:00 a.m. to 11:59 a.m.
+        JZRM089:     Taxicab, motorcycle, bicycle, or other means: 12:00 p.m. to 3:59 p.m.
+        JZRM090:     Taxicab, motorcycle, bicycle, or other means: 4:00 p.m. to 11:59 p.m.
+ 
+    Table 14:    Means of Transportation to Work by Tenure
+    Universe:    Workers 16 years and over in households
+    Source code: B08137
+    NHGIS code:  JZT
+        JZTM001:     Total
+        JZTM002:     Householder lived in owner-occupied housing units
+        JZTM003:     Householder lived in renter-occupied housing units
+        JZTM004:     Car, truck, or van - drove alone
+        JZTM005:     Car, truck, or van - drove alone: Householder lived in owner-occupied housing units
+        JZTM006:     Car, truck, or van - drove alone: Householder lived in renter-occupied housing units
+        JZTM007:     Car, truck, or van - carpooled
+        JZTM008:     Car, truck, or van - carpooled: Householder lived in owner-occupied housing units
+        JZTM009:     Car, truck, or van - carpooled: Householder lived in renter-occupied housing units
+        JZTM010:     Public transportation (excluding taxicab)
+        JZTM011:     Public transportation (excluding taxicab): Householder lived in owner-occupied housing units
+        JZTM012:     Public transportation (excluding taxicab): Householder lived in renter-occupied housing units
+        JZTM013:     Walked
+        JZTM014:     Walked: Householder lived in owner-occupied housing units
+        JZTM015:     Walked: Householder lived in renter-occupied housing units
+        JZTM016:     Taxicab, motorcycle, bicycle, or other means
+        JZTM017:     Taxicab, motorcycle, bicycle, or other means: Householder lived in owner-occupied housing units
+        JZTM018:     Taxicab, motorcycle, bicycle, or other means: Householder lived in renter-occupied housing units
+        JZTM019:     Worked at home
+        JZTM020:     Worked at home: Householder lived in owner-occupied housing units
+        JZTM021:     Worked at home: Householder lived in renter-occupied housing units
+ 
+    Table 15:    Means of Transportation to Work by Vehicles Available
+    Universe:    Workers 16 years and over in households
+    Source code: B08141
+    NHGIS code:  JZU
+        JZUM001:     Total
+        JZUM002:     No vehicle available
+        JZUM003:     1 vehicle available
+        JZUM004:     2 vehicles available
+        JZUM005:     3 or more vehicles available
+        JZUM006:     Car, truck, or van - drove alone
+        JZUM007:     Car, truck, or van - drove alone: No vehicle available
+        JZUM008:     Car, truck, or van - drove alone: 1 vehicle available
+        JZUM009:     Car, truck, or van - drove alone: 2 vehicles available
+        JZUM010:     Car, truck, or van - drove alone: 3 or more vehicles available
+        JZUM011:     Car, truck, or van - carpooled
+        JZUM012:     Car, truck, or van - carpooled: No vehicle available
+        JZUM013:     Car, truck, or van - carpooled: 1 vehicle available
+        JZUM014:     Car, truck, or van - carpooled: 2 vehicles available
+        JZUM015:     Car, truck, or van - carpooled: 3 or more vehicles available
+        JZUM016:     Public transportation (excluding taxicab)
+        JZUM017:     Public transportation (excluding taxicab): No vehicle available
+        JZUM018:     Public transportation (excluding taxicab): 1 vehicle available
+        JZUM019:     Public transportation (excluding taxicab): 2 vehicles available
+        JZUM020:     Public transportation (excluding taxicab): 3 or more vehicles available
+        JZUM021:     Walked
+        JZUM022:     Walked: No vehicle available
+        JZUM023:     Walked: 1 vehicle available
+        JZUM024:     Walked: 2 vehicles available
+        JZUM025:     Walked: 3 or more vehicles available
+        JZUM026:     Taxicab, motorcycle, bicycle, or other means
+        JZUM027:     Taxicab, motorcycle, bicycle, or other means: No vehicle available
+        JZUM028:     Taxicab, motorcycle, bicycle, or other means: 1 vehicle available
+        JZUM029:     Taxicab, motorcycle, bicycle, or other means: 2 vehicles available
+        JZUM030:     Taxicab, motorcycle, bicycle, or other means: 3 or more vehicles available
+        JZUM031:     Worked at home
+        JZUM032:     Worked at home: No vehicle available
+        JZUM033:     Worked at home: 1 vehicle available
+        JZUM034:     Worked at home: 2 vehicles available
+        JZUM035:     Worked at home: 3 or more vehicles available
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 13.0 
+        [Database]. Minneapolis: University of Minnesota. 2018. 
+        http://doi.org/10.18128/D050.V13.0
+
+    * Publications and research reports employing school attendance areas data 
+      (either tabular or GIS) must cite it appropriately. The citation should 
+      include the following:
+
+        The College of William and Mary and the Minnesota Population Center.
+        School Attendance Boundary Information System (SABINS): Version 1.0.
+        Minneapolis, MN: University of Minnesota 2011.
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+    * If possible, citations involving school attendance areas should also include
+      the URL for the SABINS site:
+
+        http://www.sabinsdata.org/.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
